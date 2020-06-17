@@ -47,7 +47,7 @@ public class ValidatorTest {
 		// This has to be called before loading the document; otherwise will have no effect.
 		CDAUtil.loadPackages();
 	}
-	
+	/*
 	// 170.315_b1_toc_gold_sample2_v1.xml without profile
 	@Ignore
 	public void testGoldSampleBundleWithoutProfile() throws Exception {
@@ -117,13 +117,49 @@ public class ValidatorTest {
 		boolean generateDAFProfileMetadata = false;
 		transformAndValidate(cdaResourcePath, targetPathForFHIRResource, targetPathForResultFile, generateDAFProfileMetadata);
 	}
-	
-	// Vitera_CCDA_SMART_Sample.xml with profile
+	*/
+	// ariel.xml with profile
 	@Ignore
-	public void testViteraBundleWithProfile() throws Exception {
-		String cdaResourcePath = "src/test/resources/Vitera_CCDA_SMART_Sample.xml";
-		String targetPathForFHIRResource = "src/test/resources/output/Vitera_CCDA_SMART_Sample-w-profile-validation.xml";
-		String targetPathForResultFile = "src/test/resources/output/validation-result-w-profile-for-Vitera_CCDA_SMART_Sample.html";
+	public void testArielBundleWithProfile() throws Exception {
+		String cdaResourcePath = "src/test/resources/ariel.xml";
+		String targetPathForFHIRResource = "src/test/resources/output/airelvalidation.xml";
+		String targetPathForResultFile = "src/test/resources/output/arielreport.html";
+		boolean generateDAFProfileMetadata = true;
+		transformAndValidate(cdaResourcePath, targetPathForFHIRResource, targetPathForResultFile, generateDAFProfileMetadata);
+	}
+	// cerner.xml with profile
+	@Ignore
+	public void testCernerBundleWithProfile() throws Exception {
+		String cdaResourcePath = "src/test/resources/cernerReferral.xml";
+		String targetPathForFHIRResource = "src/test/resources/output/cernervalidation.xml";
+		String targetPathForResultFile = "src/test/resources/output/cernereport.html";
+		boolean generateDAFProfileMetadata = true;
+		transformAndValidate(cdaResourcePath, targetPathForFHIRResource, targetPathForResultFile, generateDAFProfileMetadata);
+	}
+	// epicCCD.xml with profile
+	@Ignore
+	public void testEpicWithProfile() throws Exception {	
+		String cdaResourcePath = "src/test/resources/epicCCD.xml";
+		String targetPathForFHIRResource = "src/test/resources/output/epicCCD.xml";
+		String targetPathForResultFile = "src/test/resources/output/epicCCD.html";
+		boolean generateDAFProfileMetadata = true;
+		transformAndValidate(cdaResourcePath, targetPathForFHIRResource, targetPathForResultFile, generateDAFProfileMetadata);
+	}
+	// dignityCCD.xml with profile
+	@Ignore
+	public void testDignityWithProfile() throws Exception {	
+		String cdaResourcePath = "src/test/resources/dignityCCD.xml";
+		String targetPathForFHIRResource = "src/test/resources/output/dignityCCD.xml";
+		String targetPathForResultFile = "src/test/resources/output/dignityCCD.html";
+		boolean generateDAFProfileMetadata = true;
+		transformAndValidate(cdaResourcePath, targetPathForFHIRResource, targetPathForResultFile, generateDAFProfileMetadata);
+	}
+	// athenaCCDa.xml with profile
+	@Ignore
+	public void testAthenaWithProfile() throws Exception {	
+		String cdaResourcePath = "src/test/resources/athenaCCDA.xml";
+		String targetPathForFHIRResource = "src/test/resources/output/athenaCCDA.xml";
+		String targetPathForResultFile = "src/test/resources/output/athenaCCDA.html";
 		boolean generateDAFProfileMetadata = true;
 		transformAndValidate(cdaResourcePath, targetPathForFHIRResource, targetPathForResultFile, generateDAFProfileMetadata);
 	}

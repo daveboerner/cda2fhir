@@ -1,0 +1,2745 @@
+<?xml version="1.0"?>
+<ClinicalDocument xmlns="urn:hl7-org:v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdtc="urn:hl7-org:sdtc">
+  <realmCode code="US"/>
+  <typeId root="2.16.840.1.113883.1.3" extension="POCD_HD000040"/>
+  <templateId root="2.16.840.1.113883.10.20.22.1.1"/>
+  <templateId root="2.16.840.1.113883.10.20.22.1.2"/>
+  <id root="1e4928af-2020-8e17-2b78-001A64958C30"/>
+  <code code="34133-9" codeSystem="2.16.840.1.113883.6.1" displayName="Summarization of Episode Note"/>
+  <title>Ambulatory Summary</title>
+  <effectiveTime value="20200508111023-0400"/>
+  <confidentialityCode code="N" codeSystem="2.16.840.1.113883.5.25"/>
+  <languageCode code="en-US"/>
+  <recordTarget>
+    <patientRole>
+      <id root="2.16.840.1.113883.3.564.11128" extension="2025936"/>
+      <id root="2.16.840.1.113883.4.1" extension="279368709"/>
+      <addr use="HP">
+        <streetAddressLine>242 Cornerstone Ct</streetAddressLine>
+        <streetAddressLine nullFlavor="NI"/>
+        <city>Westerville</city>
+        <state>OH</state>
+        <postalCode>43081-4591</postalCode>
+        <country>US</country>
+      </addr>
+      <telecom use="HP" value="tel:+1-614-8829369"/>
+      <patient>
+        <name>
+          <given>James</given>
+          <given>W</given>
+          <family>Dean</family>
+        </name>
+        <administrativeGenderCode code="M" codeSystem="2.16.840.1.113883.5.1"/>
+        <birthTime value="19420419"/>
+        <maritalStatusCode code="M" codeSystem="2.16.840.1.113883.5.2" displayName="Married"/>
+        <raceCode code="2106-3" codeSystem="2.16.840.1.113883.6.238" codeSystemName="Race &amp; Ethnicity - CDC" displayName="White"/>
+        <ethnicGroupCode codeSystem="2.16.840.1.113883.6.238" codeSystemName="Race &amp; Ethnicity - CDC" code="2186-5" displayName="Not Hispanic or Latino"/>
+        <languageCommunication>
+          <languageCode code="eng"/>
+        </languageCommunication>
+      </patient>
+    </patientRole>
+  </recordTarget>
+  <author>
+    <time value="20200508111023-0400"/>
+    <assignedAuthor>
+      <id root="2.16.840.1.113883.3.564"/>
+      <addr use="WP">
+        <streetAddressLine>311 Arsenal St</streetAddressLine>
+        <streetAddressLine nullFlavor="NI"/>
+        <city>Watertown</city>
+        <state>MA</state>
+        <postalCode>02472</postalCode>
+        <country>US</country>
+      </addr>
+      <telecom use="WP" value="tel:+1-617-4021000"/>
+      <assignedAuthoringDevice>
+        <manufacturerModelName>athenahealth</manufacturerModelName>
+        <softwareName>athenahealth</softwareName>
+      </assignedAuthoringDevice>
+    </assignedAuthor>
+  </author>
+  <custodian>
+    <assignedCustodian>
+      <representedCustodianOrganization>
+        <id root="2.16.840.1.113883.3.564"/>
+        <name>athenahealth</name>
+        <telecom use="WP" value="tel:+1-617-4021000"/>
+        <addr use="WP">
+          <streetAddressLine>311 Arsenal St</streetAddressLine>
+          <streetAddressLine nullFlavor="NI"/>
+          <city>Watertown</city>
+          <state>MA</state>
+          <postalCode>02472</postalCode>
+          <country>US</country>
+        </addr>
+      </representedCustodianOrganization>
+    </assignedCustodian>
+  </custodian>
+  <documentationOf>
+    <serviceEvent classCode="PCPR">
+      <effectiveTime>
+        <low value="20200508"/>
+        <high nullFlavor="NI"/>
+      </effectiveTime>
+      <performer typeCode="PRF">
+        <templateId root="2.16.840.1.113883.10.20.6.2.1"/>
+        <functionCode code="3" displayName="Primary Care Provider"/>
+        <assignedEntity>
+          <id root="2.16.840.1.113883.4.6" extension="1417992785"/>
+          <code code="207Q00000X" codeSystem="2.16.840.1.113883.6.101" codeSystemName="NUCC" displayName="Family Practice"/>
+          <addr use="WP">
+            <streetAddressLine>85 COMMERCE PARK DR</streetAddressLine>
+            <streetAddressLine nullFlavor="NI"/>
+            <city>WESTERVILLE</city>
+            <state>OH</state>
+            <postalCode>43082</postalCode>
+            <country>US</country>
+          </addr>
+          <telecom use="WP" value="tel:+1-614-8822397"/>
+          <assignedPerson>
+            <name>JAMES C ENGLISH MD</name>
+          </assignedPerson>
+          <representedOrganization>
+            <id root="1e4928af-2020-b61f-2b78-001A64958C30"/>
+            <name nullFlavor="NI"/>
+            <telecom nullFlavor="NI"/>
+            <addr nullFlavor="NI"/>
+          </representedOrganization>
+        </assignedEntity>
+      </performer>
+    </serviceEvent>
+  </documentationOf>
+  <component>
+    <structuredBody>
+      <component>
+        <section>
+          <templateId root="2.16.840.1.113883.10.20.22.2.6.1"/>
+          <id root="1e4928af-2020-5616-2b78-001A64958C30"/>
+          <code code="48765-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+          <title>Allergies</title>
+          <text>
+			<table>
+				<thead>
+					<tr>
+						<th>Code</th>
+						<th>Code System</th>
+						<th>Name</th>
+						<th>Reaction</th>
+						<th>Severity</th>
+						<th>Status</th>
+						<th>Onset</th>
+						
+						
+					</tr>
+				</thead>
+		
+				<tbody>
+			
+				<tr>
+					
+					<td><content ID="allergy1">NKDA</content></td>
+					<td>&#xA0;</td>
+					<td>&#xA0;</td>
+					<td>&#xA0;</td>
+					<td>&#xA0;</td>
+					
+				</tr>
+			
+					</tbody>
+			
+			</table>
+		</text>
+          <entry>
+            <act classCode="ACT" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.30"/>
+              <id root="1e4928af-2020-c95d-2b78-001A64958C30"/>
+              <code code="48765-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Allergies, adverse reactions, alerts"/>
+              <statusCode code="active"/>
+              <effectiveTime>
+                <low value="20190321"/>
+              </effectiveTime>
+              <entryRelationship typeCode="SUBJ">
+                <observation classCode="OBS" moodCode="EVN">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.7"/>
+                  <id root="1e4928af-2020-bcf6-2b78-001A64958C30"/>
+                  <code code="ASSERTION" codeSystem="2.16.840.1.113883.5.4"/>
+                  <statusCode code="completed"/>
+                  <effectiveTime>
+                    <low nullFlavor="NI"/>
+                  </effectiveTime>
+                  <value xsi:type="CD" code="419199007" codeSystem="2.16.840.1.113883.6.96" displayName="Allergy to substance"/>
+                  <participant typeCode="CSM">
+                    <participantRole classCode="MANU">
+                      <playingEntity classCode="MMAT">
+                        <code nullFlavor="UNK">
+                          <translation nullFlavor="NI" displayName="NKDA"/>
+                        </code>
+                      </playingEntity>
+                    </participantRole>
+                  </participant>
+                  <entryRelationship typeCode="MFST" inversionInd="true">
+                    <observation classCode="OBS" moodCode="EVN">
+                      <templateId root="2.16.840.1.113883.10.20.22.4.9"/>
+                      <id root="1e4928af-2020-e850-2b78-001A64958C30"/>
+                      <code nullFlavor="NI"/>
+                      <statusCode code="completed"/>
+                      <value nullFlavor="UNK" xsi:type="CD"/>
+                    </observation>
+                  </entryRelationship>
+                  <entryRelationship typeCode="SUBJ" inversionInd="true">
+                    <observation moodCode="EVN" classCode="OBS">
+                      <templateId root="2.16.840.1.113883.10.20.22.4.8"/>
+                      <code code="SEV" codeSystem="2.16.840.1.113883.5.4" codeSystemName="HL7ActCode" displayName="Severity Observation"/>
+                      <statusCode code="completed"/>
+                      <value xsi:type="CD" nullFlavor="NI"/>
+                    </observation>
+                  </entryRelationship>
+                </observation>
+              </entryRelationship>
+            </act>
+          </entry>
+        </section>
+      </component>
+      <component>
+        <section>
+          <templateId root="2.16.840.1.113883.10.20.22.2.1.1"/>
+          <id root="1e4928af-2020-1972-2b78-001A64958C30"/>
+          <code code="10160-0" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="History of Medication Use"/>
+          <title>Medications</title>
+          <text>
+            <table>
+              <thead>
+                <tr>
+                  <th>Name</th>
+                  <th>Status</th>
+                  <th>Start Date</th>
+                  <th>Stop Date</th>
+                  <th>&#xA0;</th>
+                  <th>&#xA0;</th>
+                </tr>
+              </thead>
+              <tbody>
+		<tr>
+			
+			
+			<td styleCode="Botrule"><content ID="Med1">acyclovir 800 mg tablet</content></td>
+			<td styleCode="Botrule">Active</td>
+			
+			<td styleCode="Botrule">&#xA0;</td>
+			
+			
+			<td styleCode="Botrule">Not available</td>
+			
+		</tr>
+	
+		<tr>
+			
+			
+			<td styleCode="Botrule"><content ID="Med2">amoxicillin 875 mg tablet</content></td>
+			<td styleCode="Botrule">Active</td>
+			
+			<td styleCode="Botrule">&#xA0;</td>
+			
+			
+			<td styleCode="Botrule">Not available</td>
+			
+		</tr>
+	
+		<tr>
+			
+			
+			<td styleCode="Botrule"><content ID="Med3">anti-diarrheal tablets 2 mg-24</content></td>
+			<td styleCode="Botrule">Active</td>
+			
+			<td styleCode="Botrule">&#xA0;</td>
+			
+			
+			<td styleCode="Botrule">Not available</td>
+			
+		</tr>
+	
+		<tr>
+			
+			
+			<td styleCode="Botrule"><content ID="Med4">azithromycin 250 mg tablet</content></td>
+			<td styleCode="Botrule">Active</td>
+			
+			<td styleCode="Botrule">&#xA0;</td>
+			
+			
+			<td styleCode="Botrule">Not available</td>
+			
+		</tr>
+	
+		<tr>
+			
+			
+			<td styleCode="Botrule"><content ID="Med5">calcium carbonate antacid regu</content></td>
+			<td styleCode="Botrule">Active</td>
+			
+			<td styleCode="Botrule">&#xA0;</td>
+			
+			
+			<td styleCode="Botrule">Not available</td>
+			
+		</tr>
+	
+		<tr>
+			
+			
+			<td styleCode="Botrule"><content ID="Med6">cephalexin 500 mg capsule</content></td>
+			<td styleCode="Botrule">Active</td>
+			
+			<td styleCode="Botrule">&#xA0;</td>
+			
+			
+			<td styleCode="Botrule">Not available</td>
+			
+		</tr>
+	
+		<tr>
+			
+			
+			<td styleCode="Botrule"><content ID="Med7">coconut oil 1,000 mg capsule<br/> Take by oral route.</content></td>
+			<td styleCode="Botrule">Active</td>
+			
+			<td styleCode="Botrule">&#xA0;</td>
+			
+			
+			<td styleCode="Botrule">Not available</td>
+			
+		</tr>
+	
+		<tr>
+			
+			
+			<td styleCode="Botrule"><content ID="Med8">cold and hot patches</content></td>
+			<td styleCode="Botrule">Active</td>
+			
+			<td styleCode="Botrule">&#xA0;</td>
+			
+			
+			<td styleCode="Botrule">Not available</td>
+			
+		</tr>
+	
+		<tr>
+			
+			
+			<td styleCode="Botrule"><content ID="Med9">cough formula - expectorant</content></td>
+			<td styleCode="Botrule">Active</td>
+			
+			<td styleCode="Botrule">&#xA0;</td>
+			
+			
+			<td styleCode="Botrule">Not available</td>
+			
+		</tr>
+	
+		<tr>
+			
+			
+			<td styleCode="Botrule"><content ID="Med10">cyclobenzaprine 5 mg tablet</content></td>
+			<td styleCode="Botrule">Active</td>
+			
+			<td styleCode="Botrule">&#xA0;</td>
+			
+			
+			<td styleCode="Botrule">Not available</td>
+			
+		</tr>
+	
+		<tr>
+			
+			
+			<td styleCode="Botrule"><content ID="Med11">donepezil 10 mg tablet</content></td>
+			<td styleCode="Botrule">Active</td>
+			
+			<td styleCode="Botrule">&#xA0;</td>
+			
+			
+			<td styleCode="Botrule">Not available</td>
+			
+		</tr>
+	
+		<tr>
+			
+			
+			<td styleCode="Botrule"><content ID="Med12">donepezil 5 mg tablet</content></td>
+			<td styleCode="Botrule">Active</td>
+			
+			<td styleCode="Botrule">&#xA0;</td>
+			
+			
+			<td styleCode="Botrule">Not available</td>
+			
+		</tr>
+	
+		<tr>
+			
+			
+			<td styleCode="Botrule"><content ID="Med13">doxycycline hyclate 100 mg capsule</content></td>
+			<td styleCode="Botrule">Active</td>
+			
+			<td styleCode="Botrule">&#xA0;</td>
+			
+			
+			<td styleCode="Botrule">Not available</td>
+			
+		</tr>
+	
+		<tr>
+			
+			
+			<td styleCode="Botrule"><content ID="Med14">doxycycline hyclate 100 mg tablet</content></td>
+			<td styleCode="Botrule">Active</td>
+			
+			<td styleCode="Botrule">&#xA0;</td>
+			
+			
+			<td styleCode="Botrule">Not available</td>
+			
+		</tr>
+	
+		<tr>
+			
+			
+			<td styleCode="Botrule"><content ID="Med15">effervescent pain relief</content></td>
+			<td styleCode="Botrule">Active</td>
+			
+			<td styleCode="Botrule">&#xA0;</td>
+			
+			
+			<td styleCode="Botrule">Not available</td>
+			
+		</tr>
+	
+		<tr>
+			
+			
+			<td styleCode="Botrule"><content ID="Med16">eye care vitamins</content></td>
+			<td styleCode="Botrule">Active</td>
+			
+			<td styleCode="Botrule">&#xA0;</td>
+			
+			
+			<td styleCode="Botrule">Not available</td>
+			
+		</tr>
+	
+		<tr>
+			
+			
+			<td styleCode="Botrule"><content ID="Med17">gabapentin 100 mg capsule</content></td>
+			<td styleCode="Botrule">Active</td>
+			
+			<td styleCode="Botrule">&#xA0;</td>
+			
+			
+			<td styleCode="Botrule">Not available</td>
+			
+		</tr>
+	
+		<tr>
+			
+			
+			<td styleCode="Botrule"><content ID="Med18">gabapentin 300 mg capsule</content></td>
+			<td styleCode="Botrule">Active</td>
+			
+			<td styleCode="Botrule">&#xA0;</td>
+			
+			
+			<td styleCode="Botrule">Not available</td>
+			
+		</tr>
+	
+		<tr>
+			
+			
+			<td styleCode="Botrule"><content ID="Med19">ginkgo biloba 120 mg tablet<br/> Take by oral route.</content></td>
+			<td styleCode="Botrule">Active</td>
+			
+			<td styleCode="Botrule">&#xA0;</td>
+			
+			
+			<td styleCode="Botrule">Not available</td>
+			
+		</tr>
+	
+		<tr>
+			
+			
+			<td styleCode="Botrule"><content ID="Med20">Guaiatussin AC 10 mg-100 mg/5 mL oral liquid</content></td>
+			<td styleCode="Botrule">Active</td>
+			
+			<td styleCode="Botrule">&#xA0;</td>
+			
+			
+			<td styleCode="Botrule">Not available</td>
+			
+		</tr>
+	
+		<tr>
+			
+			
+			<td styleCode="Botrule"><content ID="Med21">ketorolac 0.5 % eye drops</content></td>
+			<td styleCode="Botrule">Active</td>
+			
+			<td styleCode="Botrule">&#xA0;</td>
+			
+			
+			<td styleCode="Botrule">Not available</td>
+			
+		</tr>
+	
+		<tr>
+			
+			
+			<td styleCode="Botrule"><content ID="Med22">latanoprost 0.005 % eye drops</content></td>
+			<td styleCode="Botrule">Active</td>
+			
+			<td styleCode="Botrule">&#xA0;</td>
+			
+			
+			<td styleCode="Botrule">Not available</td>
+			
+		</tr>
+	
+		<tr>
+			
+			
+			<td styleCode="Botrule"><content ID="Med23">lubricant eye drops</content></td>
+			<td styleCode="Botrule">Active</td>
+			
+			<td styleCode="Botrule">&#xA0;</td>
+			
+			
+			<td styleCode="Botrule">Not available</td>
+			
+		</tr>
+	
+		<tr>
+			
+			
+			<td styleCode="Botrule"><content ID="Med24">Lyrica 50 mg capsule</content></td>
+			<td styleCode="Botrule">Active</td>
+			
+			<td styleCode="Botrule">&#xA0;</td>
+			
+			
+			<td styleCode="Botrule">Not available</td>
+			
+		</tr>
+	
+		<tr>
+			
+			
+			<td styleCode="Botrule"><content ID="Med25">meclizine 12.5 mg tablet</content></td>
+			<td styleCode="Botrule">Active</td>
+			
+			<td styleCode="Botrule">&#xA0;</td>
+			
+			
+			<td styleCode="Botrule">Not available</td>
+			
+		</tr>
+	
+		<tr>
+			
+			
+			<td styleCode="Botrule"><content ID="Med26">meloxicam 15 mg tablet</content></td>
+			<td styleCode="Botrule">Active</td>
+			
+			<td styleCode="Botrule">&#xA0;</td>
+			
+			
+			<td styleCode="Botrule">Not available</td>
+			
+		</tr>
+	
+		<tr>
+			
+			
+			<td styleCode="Botrule"><content ID="Med27">memantine 10 mg tablet<br/> Take 1 tablet twice a day by oral route.</content></td>
+			<td styleCode="Botrule">Active</td>
+			
+			<td styleCode="Botrule">&#xA0;</td>
+			
+			
+			<td styleCode="Botrule">Not available</td>
+			
+		</tr>
+	
+		<tr>
+			
+			
+			<td styleCode="Botrule"><content ID="Med28">methylprednisolone 4 mg tablets in a dose pack</content></td>
+			<td styleCode="Botrule">Active</td>
+			
+			<td styleCode="Botrule">&#xA0;</td>
+			
+			
+			<td styleCode="Botrule">Not available</td>
+			
+		</tr>
+	
+		<tr>
+			
+			
+			<td styleCode="Botrule"><content ID="Med29">pantoprazole 40 mg tablet,delayed release</content></td>
+			<td styleCode="Botrule">Active</td>
+			
+			<td styleCode="Botrule">&#xA0;</td>
+			
+			
+			<td styleCode="Botrule">Not available</td>
+			
+		</tr>
+	
+		<tr>
+			
+			
+			<td styleCode="Botrule"><content ID="Med30">Pfizerpen-G 20 million unit solution for injection</content></td>
+			<td styleCode="Botrule">Active</td>
+			
+			<td styleCode="Botrule">&#xA0;</td>
+			
+			
+			<td styleCode="Botrule">Not available</td>
+			
+		</tr>
+	
+		<tr>
+			
+			
+			<td styleCode="Botrule"><content ID="Med31">sun block spf 30 - 240 ml</content></td>
+			<td styleCode="Botrule">Active</td>
+			
+			<td styleCode="Botrule">&#xA0;</td>
+			
+			
+			<td styleCode="Botrule">Not available</td>
+			
+		</tr>
+	
+		<tr>
+			
+			
+			<td styleCode="Botrule"><content ID="Med32">triamcinolone acetonide 0.1 % topical cream</content></td>
+			<td styleCode="Botrule">Active</td>
+			
+			<td styleCode="Botrule">&#xA0;</td>
+			
+			
+			<td styleCode="Botrule">Not available</td>
+			
+		</tr>
+	
+		<tr>
+			
+			
+			<td styleCode="Botrule"><content ID="Med33">triple antibiotic ointment plu</content></td>
+			<td styleCode="Botrule">Active</td>
+			
+			<td styleCode="Botrule">&#xA0;</td>
+			
+			
+			<td styleCode="Botrule">Not available</td>
+			
+		</tr>
+	
+		<tr>
+			
+			
+			<td styleCode="Botrule"><content ID="Med34">True Metrix Air Glucose Meter kit</content></td>
+			<td styleCode="Botrule">Active</td>
+			
+			<td styleCode="Botrule">&#xA0;</td>
+			
+			
+			<td styleCode="Botrule">Not available</td>
+			
+		</tr>
+	
+		<tr>
+			
+			
+			<td styleCode="Botrule"><content ID="Med35">True Metrix Glucose Test Strip</content></td>
+			<td styleCode="Botrule">Active</td>
+			
+			<td styleCode="Botrule">&#xA0;</td>
+			
+			
+			<td styleCode="Botrule">Not available</td>
+			
+		</tr>
+	
+		<tr>
+			
+			
+			<td styleCode="Botrule"><content ID="Med36">TRUEplus Lancets 28 gauge</content></td>
+			<td styleCode="Botrule">Active</td>
+			
+			<td styleCode="Botrule">&#xA0;</td>
+			
+			
+			<td styleCode="Botrule">Not available</td>
+			
+		</tr>
+	
+		<tr>
+			
+			
+			<td styleCode="Botrule"><content ID="Med37">turmeric 500 mg-black pepper extract 3 mg capsule<br/> Take by oral route.</content></td>
+			<td styleCode="Botrule">Active</td>
+			
+			<td styleCode="Botrule">&#xA0;</td>
+			
+			
+			<td styleCode="Botrule">Not available</td>
+			
+		</tr>
+	
+		<tr>
+			
+			
+			<td styleCode="Botrule"><content ID="Med38">vitamin c 500mg</content></td>
+			<td styleCode="Botrule">Active</td>
+			
+			<td styleCode="Botrule">&#xA0;</td>
+			
+			
+			<td styleCode="Botrule">Not available</td>
+			
+		</tr>
+	
+		<tr>
+			
+			
+			<td styleCode="Botrule"><content ID="Med39">vitamin d 1000 iu</content></td>
+			<td styleCode="Botrule">Active</td>
+			
+			<td styleCode="Botrule">&#xA0;</td>
+			
+			
+			<td styleCode="Botrule">Not available</td>
+			
+		</tr>
+	
+		<tr>
+			
+			
+			<td><content ID="Med40">Zostavax (PF) 19,400 unit/0.65 mL subcutaneous suspension</content></td>
+			<td>Active</td>
+			
+			<td>&#xA0;</td>
+			
+			
+			<td>Not available</td>
+			
+		</tr>
+	</tbody>
+            </table>
+          </text>
+          <entry>
+            <substanceAdministration moodCode="INT" classCode="SBADM">
+              <templateId root="2.16.840.1.113883.10.20.22.4.16"/>
+              <id root="1e4928af-2020-6d13-2b78-001A64958C30"/>
+              <text>
+                <reference value="#Med1"/>
+              </text>
+              <statusCode code="completed"/>
+              <effectiveTime xsi:type="IVL_TS">
+                <low nullFlavor="NI"/>
+                <high nullFlavor="NI"/>
+              </effectiveTime>
+              <consumable>
+                <manufacturedProduct classCode="MANU">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.23"/>
+                  <manufacturedMaterial>
+                    <code code="197313" displayName="Acyclovir 800 MG Oral Tablet" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RxNorm">
+                      <originalText>
+                        <reference value="#Med1"/>
+                      </originalText>
+                      <translation code="209280" codeSystemName="FDB MEDID"/>
+                    </code>
+                    <name>Acyclovir 800 MG Oral Tablet</name>
+                  </manufacturedMaterial>
+                </manufacturedProduct>
+              </consumable>
+              <entryRelationship typeCode="SUBJ" inversionInd="true">
+                <act moodCode="INT" classCode="ACT">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.20"/>
+                  <code code="311401005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Patient Education"/>
+                  <text/>
+                  <statusCode code="completed"/>
+                </act>
+              </entryRelationship>
+            </substanceAdministration>
+          </entry>
+          <entry>
+            <substanceAdministration moodCode="INT" classCode="SBADM">
+              <templateId root="2.16.840.1.113883.10.20.22.4.16"/>
+              <id root="1e4928af-2020-c096-2b78-001A64958C30"/>
+              <text>
+                <reference value="#Med2"/>
+              </text>
+              <statusCode code="completed"/>
+              <effectiveTime xsi:type="IVL_TS">
+                <low nullFlavor="NI"/>
+                <high nullFlavor="NI"/>
+              </effectiveTime>
+              <consumable>
+                <manufacturedProduct classCode="MANU">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.23"/>
+                  <manufacturedMaterial>
+                    <code code="308194" displayName="Amoxicillin 875 MG Oral Tablet" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RxNorm">
+                      <originalText>
+                        <reference value="#Med2"/>
+                      </originalText>
+                      <translation code="222079" codeSystemName="FDB MEDID"/>
+                    </code>
+                    <name>Amoxicillin 875 MG Oral Tablet</name>
+                  </manufacturedMaterial>
+                </manufacturedProduct>
+              </consumable>
+              <entryRelationship typeCode="SUBJ" inversionInd="true">
+                <act moodCode="INT" classCode="ACT">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.20"/>
+                  <code code="311401005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Patient Education"/>
+                  <text/>
+                  <statusCode code="completed"/>
+                </act>
+              </entryRelationship>
+            </substanceAdministration>
+          </entry>
+          <entry>
+            <substanceAdministration moodCode="INT" classCode="SBADM">
+              <templateId root="2.16.840.1.113883.10.20.22.4.16"/>
+              <id root="1e4928af-2020-5824-2b78-001A64958C30"/>
+              <text>
+                <reference value="#Med3"/>
+              </text>
+              <statusCode code="completed"/>
+              <effectiveTime xsi:type="IVL_TS">
+                <low nullFlavor="NI"/>
+                <high nullFlavor="NI"/>
+              </effectiveTime>
+              <consumable>
+                <manufacturedProduct classCode="MANU">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.23"/>
+                  <manufacturedMaterial>
+                    <code nullFlavor="NI">
+                      <originalText>
+                        <reference value="#Med3"/>
+                      </originalText>
+                    </code>
+                    <name>anti-diarrheal tablets 2 mg-24</name>
+                  </manufacturedMaterial>
+                </manufacturedProduct>
+              </consumable>
+              <entryRelationship typeCode="SUBJ" inversionInd="true">
+                <act moodCode="INT" classCode="ACT">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.20"/>
+                  <code code="311401005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Patient Education"/>
+                  <text/>
+                  <statusCode code="completed"/>
+                </act>
+              </entryRelationship>
+            </substanceAdministration>
+          </entry>
+          <entry>
+            <substanceAdministration moodCode="INT" classCode="SBADM">
+              <templateId root="2.16.840.1.113883.10.20.22.4.16"/>
+              <id root="1e4928af-2020-8bbf-2b78-001A64958C30"/>
+              <text>
+                <reference value="#Med4"/>
+              </text>
+              <statusCode code="completed"/>
+              <effectiveTime xsi:type="IVL_TS">
+                <low nullFlavor="NI"/>
+                <high nullFlavor="NI"/>
+              </effectiveTime>
+              <consumable>
+                <manufacturedProduct classCode="MANU">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.23"/>
+                  <manufacturedMaterial>
+                    <code code="308460" displayName="Azithromycin 250 MG Oral Tablet" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RxNorm">
+                      <originalText>
+                        <reference value="#Med4"/>
+                      </originalText>
+                      <translation code="172089" codeSystemName="FDB MEDID"/>
+                    </code>
+                    <name>Azithromycin 250 MG Oral Tablet</name>
+                  </manufacturedMaterial>
+                </manufacturedProduct>
+              </consumable>
+              <entryRelationship typeCode="SUBJ" inversionInd="true">
+                <act moodCode="INT" classCode="ACT">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.20"/>
+                  <code code="311401005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Patient Education"/>
+                  <text/>
+                  <statusCode code="completed"/>
+                </act>
+              </entryRelationship>
+            </substanceAdministration>
+          </entry>
+          <entry>
+            <substanceAdministration moodCode="INT" classCode="SBADM">
+              <templateId root="2.16.840.1.113883.10.20.22.4.16"/>
+              <id root="1e4928af-2020-33be-2b78-001A64958C30"/>
+              <text>
+                <reference value="#Med5"/>
+              </text>
+              <statusCode code="completed"/>
+              <effectiveTime xsi:type="IVL_TS">
+                <low nullFlavor="NI"/>
+                <high nullFlavor="NI"/>
+              </effectiveTime>
+              <consumable>
+                <manufacturedProduct classCode="MANU">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.23"/>
+                  <manufacturedMaterial>
+                    <code nullFlavor="NI">
+                      <originalText>
+                        <reference value="#Med5"/>
+                      </originalText>
+                    </code>
+                    <name>calcium carbonate antacid regu</name>
+                  </manufacturedMaterial>
+                </manufacturedProduct>
+              </consumable>
+              <entryRelationship typeCode="SUBJ" inversionInd="true">
+                <act moodCode="INT" classCode="ACT">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.20"/>
+                  <code code="311401005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Patient Education"/>
+                  <text/>
+                  <statusCode code="completed"/>
+                </act>
+              </entryRelationship>
+            </substanceAdministration>
+          </entry>
+          <entry>
+            <substanceAdministration moodCode="INT" classCode="SBADM">
+              <templateId root="2.16.840.1.113883.10.20.22.4.16"/>
+              <id root="1e4928af-2020-f1d6-2b78-001A64958C30"/>
+              <text>
+                <reference value="#Med6"/>
+              </text>
+              <statusCode code="completed"/>
+              <effectiveTime xsi:type="IVL_TS">
+                <low nullFlavor="NI"/>
+                <high nullFlavor="NI"/>
+              </effectiveTime>
+              <consumable>
+                <manufacturedProduct classCode="MANU">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.23"/>
+                  <manufacturedMaterial>
+                    <code code="309114" displayName="Cephalexin 500 MG Oral Capsule" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RxNorm">
+                      <originalText>
+                        <reference value="#Med6"/>
+                      </originalText>
+                      <translation code="237854" codeSystemName="FDB MEDID"/>
+                    </code>
+                    <name>Cephalexin 500 MG Oral Capsule</name>
+                  </manufacturedMaterial>
+                </manufacturedProduct>
+              </consumable>
+              <entryRelationship typeCode="SUBJ" inversionInd="true">
+                <act moodCode="INT" classCode="ACT">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.20"/>
+                  <code code="311401005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Patient Education"/>
+                  <text/>
+                  <statusCode code="completed"/>
+                </act>
+              </entryRelationship>
+            </substanceAdministration>
+          </entry>
+          <entry>
+            <substanceAdministration moodCode="INT" classCode="SBADM">
+              <templateId root="2.16.840.1.113883.10.20.22.4.16"/>
+              <id root="1e4928af-2020-c543-2b78-001A64958C30"/>
+              <text><reference value="#Med7"/>Take by oral route.</text>
+              <statusCode code="completed"/>
+              <effectiveTime xsi:type="IVL_TS">
+                <low nullFlavor="NI"/>
+                <high nullFlavor="NI"/>
+              </effectiveTime>
+              <consumable>
+                <manufacturedProduct classCode="MANU">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.23"/>
+                  <manufacturedMaterial>
+                    <code nullFlavor="NI">
+                      <originalText>
+                        <reference value="#Med7"/>
+                      </originalText>
+                      <translation code="573154" codeSystemName="FDB MEDID"/>
+                    </code>
+                    <name>coconut oil 1,000 mg capsule</name>
+                  </manufacturedMaterial>
+                </manufacturedProduct>
+              </consumable>
+              <entryRelationship typeCode="SUBJ" inversionInd="true">
+                <act moodCode="INT" classCode="ACT">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.20"/>
+                  <code code="311401005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Patient Education"/>
+                  <text/>
+                  <statusCode code="completed"/>
+                </act>
+              </entryRelationship>
+            </substanceAdministration>
+          </entry>
+          <entry>
+            <substanceAdministration moodCode="INT" classCode="SBADM">
+              <templateId root="2.16.840.1.113883.10.20.22.4.16"/>
+              <id root="1e4928af-2020-d8b7-2b78-001A64958C30"/>
+              <text>
+                <reference value="#Med8"/>
+              </text>
+              <statusCode code="completed"/>
+              <effectiveTime xsi:type="IVL_TS">
+                <low nullFlavor="NI"/>
+                <high nullFlavor="NI"/>
+              </effectiveTime>
+              <consumable>
+                <manufacturedProduct classCode="MANU">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.23"/>
+                  <manufacturedMaterial>
+                    <code nullFlavor="NI">
+                      <originalText>
+                        <reference value="#Med8"/>
+                      </originalText>
+                    </code>
+                    <name>cold and hot patches</name>
+                  </manufacturedMaterial>
+                </manufacturedProduct>
+              </consumable>
+              <entryRelationship typeCode="SUBJ" inversionInd="true">
+                <act moodCode="INT" classCode="ACT">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.20"/>
+                  <code code="311401005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Patient Education"/>
+                  <text/>
+                  <statusCode code="completed"/>
+                </act>
+              </entryRelationship>
+            </substanceAdministration>
+          </entry>
+          <entry>
+            <substanceAdministration moodCode="INT" classCode="SBADM">
+              <templateId root="2.16.840.1.113883.10.20.22.4.16"/>
+              <id root="1e4928af-2020-a722-2b78-001A64958C30"/>
+              <text>
+                <reference value="#Med9"/>
+              </text>
+              <statusCode code="completed"/>
+              <effectiveTime xsi:type="IVL_TS">
+                <low nullFlavor="NI"/>
+                <high nullFlavor="NI"/>
+              </effectiveTime>
+              <consumable>
+                <manufacturedProduct classCode="MANU">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.23"/>
+                  <manufacturedMaterial>
+                    <code nullFlavor="NI">
+                      <originalText>
+                        <reference value="#Med9"/>
+                      </originalText>
+                    </code>
+                    <name>cough formula - expectorant</name>
+                  </manufacturedMaterial>
+                </manufacturedProduct>
+              </consumable>
+              <entryRelationship typeCode="SUBJ" inversionInd="true">
+                <act moodCode="INT" classCode="ACT">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.20"/>
+                  <code code="311401005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Patient Education"/>
+                  <text/>
+                  <statusCode code="completed"/>
+                </act>
+              </entryRelationship>
+            </substanceAdministration>
+          </entry>
+          <entry>
+            <substanceAdministration moodCode="INT" classCode="SBADM">
+              <templateId root="2.16.840.1.113883.10.20.22.4.16"/>
+              <id root="1e4928af-2020-e438-2b78-001A64958C30"/>
+              <text>
+                <reference value="#Med10"/>
+              </text>
+              <statusCode code="completed"/>
+              <effectiveTime xsi:type="IVL_TS">
+                <low nullFlavor="NI"/>
+                <high nullFlavor="NI"/>
+              </effectiveTime>
+              <consumable>
+                <manufacturedProduct classCode="MANU">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.23"/>
+                  <manufacturedMaterial>
+                    <code code="828320" displayName="Cyclobenzaprine hydrochloride 5 MG Oral Tablet" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RxNorm">
+                      <originalText>
+                        <reference value="#Med10"/>
+                      </originalText>
+                      <translation code="448725" codeSystemName="FDB MEDID"/>
+                    </code>
+                    <name>Cyclobenzaprine hydrochloride 5 MG Oral Tablet</name>
+                  </manufacturedMaterial>
+                </manufacturedProduct>
+              </consumable>
+              <entryRelationship typeCode="SUBJ" inversionInd="true">
+                <act moodCode="INT" classCode="ACT">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.20"/>
+                  <code code="311401005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Patient Education"/>
+                  <text/>
+                  <statusCode code="completed"/>
+                </act>
+              </entryRelationship>
+            </substanceAdministration>
+          </entry>
+          <entry>
+            <substanceAdministration moodCode="INT" classCode="SBADM">
+              <templateId root="2.16.840.1.113883.10.20.22.4.16"/>
+              <id root="1e4928af-2020-1b3d-2b78-001A64958C30"/>
+              <text>
+                <reference value="#Med11"/>
+              </text>
+              <statusCode code="completed"/>
+              <effectiveTime xsi:type="IVL_TS">
+                <low nullFlavor="NI"/>
+                <high nullFlavor="NI"/>
+              </effectiveTime>
+              <consumable>
+                <manufacturedProduct classCode="MANU">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.23"/>
+                  <manufacturedMaterial>
+                    <code code="997223" displayName="Donepezil hydrochloride 10 MG Oral Tablet" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RxNorm">
+                      <originalText>
+                        <reference value="#Med11"/>
+                      </originalText>
+                      <translation code="182063" codeSystemName="FDB MEDID"/>
+                    </code>
+                    <name>Donepezil hydrochloride 10 MG Oral Tablet</name>
+                  </manufacturedMaterial>
+                </manufacturedProduct>
+              </consumable>
+              <entryRelationship typeCode="SUBJ" inversionInd="true">
+                <act moodCode="INT" classCode="ACT">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.20"/>
+                  <code code="311401005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Patient Education"/>
+                  <text/>
+                  <statusCode code="completed"/>
+                </act>
+              </entryRelationship>
+            </substanceAdministration>
+          </entry>
+          <entry>
+            <substanceAdministration moodCode="INT" classCode="SBADM">
+              <templateId root="2.16.840.1.113883.10.20.22.4.16"/>
+              <id root="1e4928af-2020-ca5b-2b78-001A64958C30"/>
+              <text>
+                <reference value="#Med12"/>
+              </text>
+              <statusCode code="completed"/>
+              <effectiveTime xsi:type="IVL_TS">
+                <low nullFlavor="NI"/>
+                <high nullFlavor="NI"/>
+              </effectiveTime>
+              <consumable>
+                <manufacturedProduct classCode="MANU">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.23"/>
+                  <manufacturedMaterial>
+                    <code code="997229" displayName="Donepezil hydrochloride 5 MG Oral Tablet" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RxNorm">
+                      <originalText>
+                        <reference value="#Med12"/>
+                      </originalText>
+                      <translation code="164231" codeSystemName="FDB MEDID"/>
+                    </code>
+                    <name>Donepezil hydrochloride 5 MG Oral Tablet</name>
+                  </manufacturedMaterial>
+                </manufacturedProduct>
+              </consumable>
+              <entryRelationship typeCode="SUBJ" inversionInd="true">
+                <act moodCode="INT" classCode="ACT">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.20"/>
+                  <code code="311401005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Patient Education"/>
+                  <text/>
+                  <statusCode code="completed"/>
+                </act>
+              </entryRelationship>
+            </substanceAdministration>
+          </entry>
+          <entry>
+            <substanceAdministration moodCode="INT" classCode="SBADM">
+              <templateId root="2.16.840.1.113883.10.20.22.4.16"/>
+              <id root="1e4928af-2020-3ea7-2b78-001A64958C30"/>
+              <text>
+                <reference value="#Med13"/>
+              </text>
+              <statusCode code="completed"/>
+              <effectiveTime xsi:type="IVL_TS">
+                <low nullFlavor="NI"/>
+                <high nullFlavor="NI"/>
+              </effectiveTime>
+              <consumable>
+                <manufacturedProduct classCode="MANU">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.23"/>
+                  <manufacturedMaterial>
+                    <code code="1649988" displayName="doxycycline hyclate 100 MG Oral Capsule" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RxNorm">
+                      <originalText>
+                        <reference value="#Med13"/>
+                      </originalText>
+                      <translation code="162562" codeSystemName="FDB MEDID"/>
+                    </code>
+                    <name>doxycycline hyclate 100 MG Oral Capsule</name>
+                  </manufacturedMaterial>
+                </manufacturedProduct>
+              </consumable>
+              <entryRelationship typeCode="SUBJ" inversionInd="true">
+                <act moodCode="INT" classCode="ACT">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.20"/>
+                  <code code="311401005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Patient Education"/>
+                  <text/>
+                  <statusCode code="completed"/>
+                </act>
+              </entryRelationship>
+            </substanceAdministration>
+          </entry>
+          <entry>
+            <substanceAdministration moodCode="INT" classCode="SBADM">
+              <templateId root="2.16.840.1.113883.10.20.22.4.16"/>
+              <id root="1e4928af-2020-7d4d-2b78-001A64958C30"/>
+              <text>
+                <reference value="#Med14"/>
+              </text>
+              <statusCode code="completed"/>
+              <effectiveTime xsi:type="IVL_TS">
+                <low nullFlavor="NI"/>
+                <high nullFlavor="NI"/>
+              </effectiveTime>
+              <consumable>
+                <manufacturedProduct classCode="MANU">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.23"/>
+                  <manufacturedMaterial>
+                    <code code="1650143" displayName="doxycycline hyclate 100 MG Oral Tablet" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RxNorm">
+                      <originalText>
+                        <reference value="#Med14"/>
+                      </originalText>
+                      <translation code="290164" codeSystemName="FDB MEDID"/>
+                    </code>
+                    <name>doxycycline hyclate 100 MG Oral Tablet</name>
+                  </manufacturedMaterial>
+                </manufacturedProduct>
+              </consumable>
+              <entryRelationship typeCode="SUBJ" inversionInd="true">
+                <act moodCode="INT" classCode="ACT">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.20"/>
+                  <code code="311401005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Patient Education"/>
+                  <text/>
+                  <statusCode code="completed"/>
+                </act>
+              </entryRelationship>
+            </substanceAdministration>
+          </entry>
+          <entry>
+            <substanceAdministration moodCode="INT" classCode="SBADM">
+              <templateId root="2.16.840.1.113883.10.20.22.4.16"/>
+              <id root="1e4928af-2020-bdd3-2b78-001A64958C30"/>
+              <text>
+                <reference value="#Med15"/>
+              </text>
+              <statusCode code="completed"/>
+              <effectiveTime xsi:type="IVL_TS">
+                <low nullFlavor="NI"/>
+                <high nullFlavor="NI"/>
+              </effectiveTime>
+              <consumable>
+                <manufacturedProduct classCode="MANU">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.23"/>
+                  <manufacturedMaterial>
+                    <code nullFlavor="NI">
+                      <originalText>
+                        <reference value="#Med15"/>
+                      </originalText>
+                    </code>
+                    <name>effervescent pain relief</name>
+                  </manufacturedMaterial>
+                </manufacturedProduct>
+              </consumable>
+              <entryRelationship typeCode="SUBJ" inversionInd="true">
+                <act moodCode="INT" classCode="ACT">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.20"/>
+                  <code code="311401005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Patient Education"/>
+                  <text/>
+                  <statusCode code="completed"/>
+                </act>
+              </entryRelationship>
+            </substanceAdministration>
+          </entry>
+          <entry>
+            <substanceAdministration moodCode="INT" classCode="SBADM">
+              <templateId root="2.16.840.1.113883.10.20.22.4.16"/>
+              <id root="1e4928af-2020-0754-2b78-001A64958C30"/>
+              <text>
+                <reference value="#Med16"/>
+              </text>
+              <statusCode code="completed"/>
+              <effectiveTime xsi:type="IVL_TS">
+                <low nullFlavor="NI"/>
+                <high nullFlavor="NI"/>
+              </effectiveTime>
+              <consumable>
+                <manufacturedProduct classCode="MANU">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.23"/>
+                  <manufacturedMaterial>
+                    <code nullFlavor="NI">
+                      <originalText>
+                        <reference value="#Med16"/>
+                      </originalText>
+                    </code>
+                    <name>eye care vitamins</name>
+                  </manufacturedMaterial>
+                </manufacturedProduct>
+              </consumable>
+              <entryRelationship typeCode="SUBJ" inversionInd="true">
+                <act moodCode="INT" classCode="ACT">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.20"/>
+                  <code code="311401005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Patient Education"/>
+                  <text/>
+                  <statusCode code="completed"/>
+                </act>
+              </entryRelationship>
+            </substanceAdministration>
+          </entry>
+          <entry>
+            <substanceAdministration moodCode="INT" classCode="SBADM">
+              <templateId root="2.16.840.1.113883.10.20.22.4.16"/>
+              <id root="1e4928af-2020-543a-2b78-001A64958C30"/>
+              <text>
+                <reference value="#Med17"/>
+              </text>
+              <statusCode code="completed"/>
+              <effectiveTime xsi:type="IVL_TS">
+                <low nullFlavor="NI"/>
+                <high nullFlavor="NI"/>
+              </effectiveTime>
+              <consumable>
+                <manufacturedProduct classCode="MANU">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.23"/>
+                  <manufacturedMaterial>
+                    <code code="310430" displayName="gabapentin 100 MG Oral Capsule" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RxNorm">
+                      <originalText>
+                        <reference value="#Med17"/>
+                      </originalText>
+                      <translation code="271154" codeSystemName="FDB MEDID"/>
+                    </code>
+                    <name>gabapentin 100 MG Oral Capsule</name>
+                  </manufacturedMaterial>
+                </manufacturedProduct>
+              </consumable>
+              <entryRelationship typeCode="SUBJ" inversionInd="true">
+                <act moodCode="INT" classCode="ACT">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.20"/>
+                  <code code="311401005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Patient Education"/>
+                  <text/>
+                  <statusCode code="completed"/>
+                </act>
+              </entryRelationship>
+            </substanceAdministration>
+          </entry>
+          <entry>
+            <substanceAdministration moodCode="INT" classCode="SBADM">
+              <templateId root="2.16.840.1.113883.10.20.22.4.16"/>
+              <id root="1e4928af-2020-a4fa-2b78-001A64958C30"/>
+              <text>
+                <reference value="#Med18"/>
+              </text>
+              <statusCode code="completed"/>
+              <effectiveTime xsi:type="IVL_TS">
+                <low nullFlavor="NI"/>
+                <high nullFlavor="NI"/>
+              </effectiveTime>
+              <consumable>
+                <manufacturedProduct classCode="MANU">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.23"/>
+                  <manufacturedMaterial>
+                    <code code="310431" displayName="gabapentin 300 MG Oral Capsule" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RxNorm">
+                      <originalText>
+                        <reference value="#Med18"/>
+                      </originalText>
+                      <translation code="258949" codeSystemName="FDB MEDID"/>
+                    </code>
+                    <name>gabapentin 300 MG Oral Capsule</name>
+                  </manufacturedMaterial>
+                </manufacturedProduct>
+              </consumable>
+              <entryRelationship typeCode="SUBJ" inversionInd="true">
+                <act moodCode="INT" classCode="ACT">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.20"/>
+                  <code code="311401005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Patient Education"/>
+                  <text/>
+                  <statusCode code="completed"/>
+                </act>
+              </entryRelationship>
+            </substanceAdministration>
+          </entry>
+          <entry>
+            <substanceAdministration moodCode="INT" classCode="SBADM">
+              <templateId root="2.16.840.1.113883.10.20.22.4.16"/>
+              <id root="1e4928af-2020-d706-2b78-001A64958C30"/>
+              <text><reference value="#Med19"/>Take by oral route.</text>
+              <statusCode code="completed"/>
+              <effectiveTime xsi:type="IVL_TS">
+                <low nullFlavor="NI"/>
+                <high nullFlavor="NI"/>
+              </effectiveTime>
+              <consumable>
+                <manufacturedProduct classCode="MANU">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.23"/>
+                  <manufacturedMaterial>
+                    <code nullFlavor="NI">
+                      <originalText>
+                        <reference value="#Med19"/>
+                      </originalText>
+                      <translation code="446001" codeSystemName="FDB MEDID"/>
+                    </code>
+                    <name>ginkgo biloba 120 mg tablet</name>
+                  </manufacturedMaterial>
+                </manufacturedProduct>
+              </consumable>
+              <entryRelationship typeCode="SUBJ" inversionInd="true">
+                <act moodCode="INT" classCode="ACT">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.20"/>
+                  <code code="311401005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Patient Education"/>
+                  <text/>
+                  <statusCode code="completed"/>
+                </act>
+              </entryRelationship>
+            </substanceAdministration>
+          </entry>
+          <entry>
+            <substanceAdministration moodCode="INT" classCode="SBADM">
+              <templateId root="2.16.840.1.113883.10.20.22.4.16"/>
+              <id root="1e4928af-2020-220a-2b78-001A64958C30"/>
+              <text>
+                <reference value="#Med20"/>
+              </text>
+              <statusCode code="completed"/>
+              <effectiveTime xsi:type="IVL_TS">
+                <low nullFlavor="NI"/>
+                <high nullFlavor="NI"/>
+              </effectiveTime>
+              <consumable>
+                <manufacturedProduct classCode="MANU">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.23"/>
+                  <manufacturedMaterial>
+                    <code code="995868" displayName="Codeine Phosphate 2 MG/ML / Guaifenesin 20 MG/ML Oral Solution" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RxNorm">
+                      <originalText>
+                        <reference value="#Med20"/>
+                      </originalText>
+                      <translation code="220327" codeSystemName="FDB MEDID"/>
+                    </code>
+                    <name>Codeine Phosphate 2 MG/ML / Guaifenesin 20 MG/ML Oral Solution</name>
+                  </manufacturedMaterial>
+                </manufacturedProduct>
+              </consumable>
+              <entryRelationship typeCode="SUBJ" inversionInd="true">
+                <act moodCode="INT" classCode="ACT">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.20"/>
+                  <code code="311401005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Patient Education"/>
+                  <text/>
+                  <statusCode code="completed"/>
+                </act>
+              </entryRelationship>
+            </substanceAdministration>
+          </entry>
+          <entry>
+            <substanceAdministration moodCode="INT" classCode="SBADM">
+              <templateId root="2.16.840.1.113883.10.20.22.4.16"/>
+              <id root="1e4928af-2020-4676-2b78-001A64958C30"/>
+              <text>
+                <reference value="#Med21"/>
+              </text>
+              <statusCode code="completed"/>
+              <effectiveTime xsi:type="IVL_TS">
+                <low nullFlavor="NI"/>
+                <high nullFlavor="NI"/>
+              </effectiveTime>
+              <consumable>
+                <manufacturedProduct classCode="MANU">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.23"/>
+                  <manufacturedMaterial>
+                    <code code="860107" displayName="Ketorolac Tromethamine 5 MG/ML Ophthalmic Solution" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RxNorm">
+                      <originalText>
+                        <reference value="#Med21"/>
+                      </originalText>
+                      <translation code="213529" codeSystemName="FDB MEDID"/>
+                    </code>
+                    <name>Ketorolac Tromethamine 5 MG/ML Ophthalmic Solution</name>
+                  </manufacturedMaterial>
+                </manufacturedProduct>
+              </consumable>
+              <entryRelationship typeCode="SUBJ" inversionInd="true">
+                <act moodCode="INT" classCode="ACT">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.20"/>
+                  <code code="311401005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Patient Education"/>
+                  <text/>
+                  <statusCode code="completed"/>
+                </act>
+              </entryRelationship>
+            </substanceAdministration>
+          </entry>
+          <entry>
+            <substanceAdministration moodCode="INT" classCode="SBADM">
+              <templateId root="2.16.840.1.113883.10.20.22.4.16"/>
+              <id root="1e4928af-2020-be23-2b78-001A64958C30"/>
+              <text>
+                <reference value="#Med22"/>
+              </text>
+              <statusCode code="completed"/>
+              <effectiveTime xsi:type="IVL_TS">
+                <low nullFlavor="NI"/>
+                <high nullFlavor="NI"/>
+              </effectiveTime>
+              <consumable>
+                <manufacturedProduct classCode="MANU">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.23"/>
+                  <manufacturedMaterial>
+                    <code code="314072" displayName="latanoprost 0.05 MG/ML Ophthalmic Solution" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RxNorm">
+                      <originalText>
+                        <reference value="#Med22"/>
+                      </originalText>
+                      <translation code="153566" codeSystemName="FDB MEDID"/>
+                    </code>
+                    <name>latanoprost 0.05 MG/ML Ophthalmic Solution</name>
+                  </manufacturedMaterial>
+                </manufacturedProduct>
+              </consumable>
+              <entryRelationship typeCode="SUBJ" inversionInd="true">
+                <act moodCode="INT" classCode="ACT">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.20"/>
+                  <code code="311401005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Patient Education"/>
+                  <text/>
+                  <statusCode code="completed"/>
+                </act>
+              </entryRelationship>
+            </substanceAdministration>
+          </entry>
+          <entry>
+            <substanceAdministration moodCode="INT" classCode="SBADM">
+              <templateId root="2.16.840.1.113883.10.20.22.4.16"/>
+              <id root="1e4928af-2020-65d3-2b78-001A64958C30"/>
+              <text>
+                <reference value="#Med23"/>
+              </text>
+              <statusCode code="completed"/>
+              <effectiveTime xsi:type="IVL_TS">
+                <low nullFlavor="NI"/>
+                <high nullFlavor="NI"/>
+              </effectiveTime>
+              <consumable>
+                <manufacturedProduct classCode="MANU">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.23"/>
+                  <manufacturedMaterial>
+                    <code nullFlavor="NI">
+                      <originalText>
+                        <reference value="#Med23"/>
+                      </originalText>
+                    </code>
+                    <name>lubricant eye drops</name>
+                  </manufacturedMaterial>
+                </manufacturedProduct>
+              </consumable>
+              <entryRelationship typeCode="SUBJ" inversionInd="true">
+                <act moodCode="INT" classCode="ACT">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.20"/>
+                  <code code="311401005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Patient Education"/>
+                  <text/>
+                  <statusCode code="completed"/>
+                </act>
+              </entryRelationship>
+            </substanceAdministration>
+          </entry>
+          <entry>
+            <substanceAdministration moodCode="INT" classCode="SBADM">
+              <templateId root="2.16.840.1.113883.10.20.22.4.16"/>
+              <id root="1e4928af-2020-e611-2b78-001A64958C30"/>
+              <text>
+                <reference value="#Med24"/>
+              </text>
+              <statusCode code="completed"/>
+              <effectiveTime xsi:type="IVL_TS">
+                <low nullFlavor="NI"/>
+                <high nullFlavor="NI"/>
+              </effectiveTime>
+              <consumable>
+                <manufacturedProduct classCode="MANU">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.23"/>
+                  <manufacturedMaterial>
+                    <code code="607033" displayName="pregabalin 50 MG Oral Capsule [Lyrica]" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RxNorm">
+                      <originalText>
+                        <reference value="#Med24"/>
+                      </originalText>
+                      <translation code="474816" codeSystemName="FDB MEDID"/>
+                    </code>
+                    <name>pregabalin 50 MG Oral Capsule [Lyrica]</name>
+                  </manufacturedMaterial>
+                </manufacturedProduct>
+              </consumable>
+              <entryRelationship typeCode="SUBJ" inversionInd="true">
+                <act moodCode="INT" classCode="ACT">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.20"/>
+                  <code code="311401005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Patient Education"/>
+                  <text/>
+                  <statusCode code="completed"/>
+                </act>
+              </entryRelationship>
+            </substanceAdministration>
+          </entry>
+          <entry>
+            <substanceAdministration moodCode="INT" classCode="SBADM">
+              <templateId root="2.16.840.1.113883.10.20.22.4.16"/>
+              <id root="1e4928af-2020-a647-2b78-001A64958C30"/>
+              <text>
+                <reference value="#Med25"/>
+              </text>
+              <statusCode code="completed"/>
+              <effectiveTime xsi:type="IVL_TS">
+                <low nullFlavor="NI"/>
+                <high nullFlavor="NI"/>
+              </effectiveTime>
+              <consumable>
+                <manufacturedProduct classCode="MANU">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.23"/>
+                  <manufacturedMaterial>
+                    <code code="995624" displayName="Meclizine Hydrochloride 12.5 MG Oral Tablet" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RxNorm">
+                      <originalText>
+                        <reference value="#Med25"/>
+                      </originalText>
+                      <translation code="198080" codeSystemName="FDB MEDID"/>
+                    </code>
+                    <name>Meclizine Hydrochloride 12.5 MG Oral Tablet</name>
+                  </manufacturedMaterial>
+                </manufacturedProduct>
+              </consumable>
+              <entryRelationship typeCode="SUBJ" inversionInd="true">
+                <act moodCode="INT" classCode="ACT">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.20"/>
+                  <code code="311401005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Patient Education"/>
+                  <text/>
+                  <statusCode code="completed"/>
+                </act>
+              </entryRelationship>
+            </substanceAdministration>
+          </entry>
+          <entry>
+            <substanceAdministration moodCode="INT" classCode="SBADM">
+              <templateId root="2.16.840.1.113883.10.20.22.4.16"/>
+              <id root="1e4928af-2020-df17-2b78-001A64958C30"/>
+              <text>
+                <reference value="#Med26"/>
+              </text>
+              <statusCode code="completed"/>
+              <effectiveTime xsi:type="IVL_TS">
+                <low nullFlavor="NI"/>
+                <high nullFlavor="NI"/>
+              </effectiveTime>
+              <consumable>
+                <manufacturedProduct classCode="MANU">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.23"/>
+                  <manufacturedMaterial>
+                    <code code="152695" displayName="meloxicam 15 MG Oral Tablet" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RxNorm">
+                      <originalText>
+                        <reference value="#Med26"/>
+                      </originalText>
+                      <translation code="182198" codeSystemName="FDB MEDID"/>
+                    </code>
+                    <name>meloxicam 15 MG Oral Tablet</name>
+                  </manufacturedMaterial>
+                </manufacturedProduct>
+              </consumable>
+              <entryRelationship typeCode="SUBJ" inversionInd="true">
+                <act moodCode="INT" classCode="ACT">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.20"/>
+                  <code code="311401005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Patient Education"/>
+                  <text/>
+                  <statusCode code="completed"/>
+                </act>
+              </entryRelationship>
+            </substanceAdministration>
+          </entry>
+          <entry>
+            <substanceAdministration moodCode="INT" classCode="SBADM">
+              <templateId root="2.16.840.1.113883.10.20.22.4.16"/>
+              <id root="1e4928af-2020-c4f7-2b78-001A64958C30"/>
+              <text><reference value="#Med27"/>Take 1 tablet twice a day by oral route.</text>
+              <statusCode code="completed"/>
+              <effectiveTime xsi:type="IVL_TS">
+                <low nullFlavor="NI"/>
+                <high nullFlavor="NI"/>
+              </effectiveTime>
+              <effectiveTime operator="A" xsi:type="PIVL_TS" institutionSpecified="true">
+                <period value="12" unit="h"/>
+              </effectiveTime>
+              <doseQuantity value="1"/>
+              <consumable>
+                <manufacturedProduct classCode="MANU">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.23"/>
+                  <manufacturedMaterial>
+                    <code code="996561" displayName="Memantine hydrochloride 10 MG Oral Tablet" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RxNorm">
+                      <originalText>
+                        <reference value="#Med27"/>
+                      </originalText>
+                      <translation code="453564" codeSystemName="FDB MEDID"/>
+                    </code>
+                    <name>Memantine hydrochloride 10 MG Oral Tablet</name>
+                  </manufacturedMaterial>
+                </manufacturedProduct>
+              </consumable>
+              <entryRelationship typeCode="SUBJ" inversionInd="true">
+                <act moodCode="INT" classCode="ACT">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.20"/>
+                  <code code="311401005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Patient Education"/>
+                  <text/>
+                  <statusCode code="completed"/>
+                </act>
+              </entryRelationship>
+            </substanceAdministration>
+          </entry>
+          <entry>
+            <substanceAdministration moodCode="INT" classCode="SBADM">
+              <templateId root="2.16.840.1.113883.10.20.22.4.16"/>
+              <id root="1e4928af-2020-19de-2b78-001A64958C30"/>
+              <text>
+                <reference value="#Med28"/>
+              </text>
+              <statusCode code="completed"/>
+              <effectiveTime xsi:type="IVL_TS">
+                <low nullFlavor="NI"/>
+                <high nullFlavor="NI"/>
+              </effectiveTime>
+              <consumable>
+                <manufacturedProduct classCode="MANU">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.23"/>
+                  <manufacturedMaterial>
+                    <code nullFlavor="NI">
+                      <originalText>
+                        <reference value="#Med28"/>
+                      </originalText>
+                      <translation code="278921" codeSystemName="FDB MEDID"/>
+                    </code>
+                    <name>methylprednisolone 4 mg tablets in a dose pack</name>
+                  </manufacturedMaterial>
+                </manufacturedProduct>
+              </consumable>
+              <entryRelationship typeCode="SUBJ" inversionInd="true">
+                <act moodCode="INT" classCode="ACT">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.20"/>
+                  <code code="311401005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Patient Education"/>
+                  <text/>
+                  <statusCode code="completed"/>
+                </act>
+              </entryRelationship>
+            </substanceAdministration>
+          </entry>
+          <entry>
+            <substanceAdministration moodCode="INT" classCode="SBADM">
+              <templateId root="2.16.840.1.113883.10.20.22.4.16"/>
+              <id root="1e4928af-2020-5911-2b78-001A64958C30"/>
+              <text>
+                <reference value="#Med29"/>
+              </text>
+              <statusCode code="completed"/>
+              <effectiveTime xsi:type="IVL_TS">
+                <low nullFlavor="NI"/>
+                <high nullFlavor="NI"/>
+              </effectiveTime>
+              <consumable>
+                <manufacturedProduct classCode="MANU">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.23"/>
+                  <manufacturedMaterial>
+                    <code code="314200" displayName="pantoprazole 40 MG Delayed Release Oral Tablet" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RxNorm">
+                      <originalText>
+                        <reference value="#Med29"/>
+                      </originalText>
+                      <translation code="238235" codeSystemName="FDB MEDID"/>
+                    </code>
+                    <name>pantoprazole 40 MG Delayed Release Oral Tablet</name>
+                  </manufacturedMaterial>
+                </manufacturedProduct>
+              </consumable>
+              <entryRelationship typeCode="SUBJ" inversionInd="true">
+                <act moodCode="INT" classCode="ACT">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.20"/>
+                  <code code="311401005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Patient Education"/>
+                  <text/>
+                  <statusCode code="completed"/>
+                </act>
+              </entryRelationship>
+            </substanceAdministration>
+          </entry>
+          <entry>
+            <substanceAdministration moodCode="INT" classCode="SBADM">
+              <templateId root="2.16.840.1.113883.10.20.22.4.16"/>
+              <id root="1e4928af-2020-42c5-2b78-001A64958C30"/>
+              <text>
+                <reference value="#Med30"/>
+              </text>
+              <statusCode code="completed"/>
+              <effectiveTime xsi:type="IVL_TS">
+                <low nullFlavor="NI"/>
+                <high nullFlavor="NI"/>
+              </effectiveTime>
+              <consumable>
+                <manufacturedProduct classCode="MANU">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.23"/>
+                  <manufacturedMaterial>
+                    <code code="995906" displayName="Penicillin G Potassium 1000000 UNT/ML Injectable Solution [Pfizerpen]" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RxNorm">
+                      <originalText>
+                        <reference value="#Med30"/>
+                      </originalText>
+                      <translation code="222846" codeSystemName="FDB MEDID"/>
+                    </code>
+                    <name>Penicillin G Potassium 1000000 UNT/ML Injectable Solution [Pfizerpen]</name>
+                  </manufacturedMaterial>
+                </manufacturedProduct>
+              </consumable>
+              <entryRelationship typeCode="SUBJ" inversionInd="true">
+                <act moodCode="INT" classCode="ACT">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.20"/>
+                  <code code="311401005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Patient Education"/>
+                  <text/>
+                  <statusCode code="completed"/>
+                </act>
+              </entryRelationship>
+            </substanceAdministration>
+          </entry>
+          <entry>
+            <substanceAdministration moodCode="INT" classCode="SBADM">
+              <templateId root="2.16.840.1.113883.10.20.22.4.16"/>
+              <id root="1e4928af-2020-b2c4-2b78-001A64958C30"/>
+              <text>
+                <reference value="#Med31"/>
+              </text>
+              <statusCode code="completed"/>
+              <effectiveTime xsi:type="IVL_TS">
+                <low nullFlavor="NI"/>
+                <high nullFlavor="NI"/>
+              </effectiveTime>
+              <consumable>
+                <manufacturedProduct classCode="MANU">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.23"/>
+                  <manufacturedMaterial>
+                    <code nullFlavor="NI">
+                      <originalText>
+                        <reference value="#Med31"/>
+                      </originalText>
+                    </code>
+                    <name>sun block spf 30 - 240 ml</name>
+                  </manufacturedMaterial>
+                </manufacturedProduct>
+              </consumable>
+              <entryRelationship typeCode="SUBJ" inversionInd="true">
+                <act moodCode="INT" classCode="ACT">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.20"/>
+                  <code code="311401005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Patient Education"/>
+                  <text/>
+                  <statusCode code="completed"/>
+                </act>
+              </entryRelationship>
+            </substanceAdministration>
+          </entry>
+          <entry>
+            <substanceAdministration moodCode="INT" classCode="SBADM">
+              <templateId root="2.16.840.1.113883.10.20.22.4.16"/>
+              <id root="1e4928af-2020-4db4-2b78-001A64958C30"/>
+              <text>
+                <reference value="#Med32"/>
+              </text>
+              <statusCode code="completed"/>
+              <effectiveTime xsi:type="IVL_TS">
+                <low nullFlavor="NI"/>
+                <high nullFlavor="NI"/>
+              </effectiveTime>
+              <consumable>
+                <manufacturedProduct classCode="MANU">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.23"/>
+                  <manufacturedMaterial>
+                    <code code="1014314" displayName="Triamcinolone Acetonide 1 MG/ML Topical Cream" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RxNorm">
+                      <originalText>
+                        <reference value="#Med32"/>
+                      </originalText>
+                      <translation code="207475" codeSystemName="FDB MEDID"/>
+                    </code>
+                    <name>Triamcinolone Acetonide 1 MG/ML Topical Cream</name>
+                  </manufacturedMaterial>
+                </manufacturedProduct>
+              </consumable>
+              <entryRelationship typeCode="SUBJ" inversionInd="true">
+                <act moodCode="INT" classCode="ACT">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.20"/>
+                  <code code="311401005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Patient Education"/>
+                  <text/>
+                  <statusCode code="completed"/>
+                </act>
+              </entryRelationship>
+            </substanceAdministration>
+          </entry>
+          <entry>
+            <substanceAdministration moodCode="INT" classCode="SBADM">
+              <templateId root="2.16.840.1.113883.10.20.22.4.16"/>
+              <id root="1e4928af-2020-d85f-2b78-001A64958C30"/>
+              <text>
+                <reference value="#Med33"/>
+              </text>
+              <statusCode code="completed"/>
+              <effectiveTime xsi:type="IVL_TS">
+                <low nullFlavor="NI"/>
+                <high nullFlavor="NI"/>
+              </effectiveTime>
+              <consumable>
+                <manufacturedProduct classCode="MANU">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.23"/>
+                  <manufacturedMaterial>
+                    <code nullFlavor="NI">
+                      <originalText>
+                        <reference value="#Med33"/>
+                      </originalText>
+                    </code>
+                    <name>triple antibiotic ointment plu</name>
+                  </manufacturedMaterial>
+                </manufacturedProduct>
+              </consumable>
+              <entryRelationship typeCode="SUBJ" inversionInd="true">
+                <act moodCode="INT" classCode="ACT">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.20"/>
+                  <code code="311401005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Patient Education"/>
+                  <text/>
+                  <statusCode code="completed"/>
+                </act>
+              </entryRelationship>
+            </substanceAdministration>
+          </entry>
+          <entry>
+            <substanceAdministration moodCode="INT" classCode="SBADM">
+              <templateId root="2.16.840.1.113883.10.20.22.4.16"/>
+              <id root="1e4928af-2020-abb1-2b78-001A64958C30"/>
+              <text>
+                <reference value="#Med34"/>
+              </text>
+              <statusCode code="completed"/>
+              <effectiveTime xsi:type="IVL_TS">
+                <low nullFlavor="NI"/>
+                <high nullFlavor="NI"/>
+              </effectiveTime>
+              <consumable>
+                <manufacturedProduct classCode="MANU">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.23"/>
+                  <manufacturedMaterial>
+                    <code nullFlavor="NI">
+                      <originalText>
+                        <reference value="#Med34"/>
+                      </originalText>
+                      <translation code="589744" codeSystemName="FDB MEDID"/>
+                    </code>
+                    <name>True Metrix Air Glucose Meter kit</name>
+                  </manufacturedMaterial>
+                </manufacturedProduct>
+              </consumable>
+              <entryRelationship typeCode="SUBJ" inversionInd="true">
+                <act moodCode="INT" classCode="ACT">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.20"/>
+                  <code code="311401005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Patient Education"/>
+                  <text/>
+                  <statusCode code="completed"/>
+                </act>
+              </entryRelationship>
+            </substanceAdministration>
+          </entry>
+          <entry>
+            <substanceAdministration moodCode="INT" classCode="SBADM">
+              <templateId root="2.16.840.1.113883.10.20.22.4.16"/>
+              <id root="1e4928af-2020-22ed-2b78-001A64958C30"/>
+              <text>
+                <reference value="#Med35"/>
+              </text>
+              <statusCode code="completed"/>
+              <effectiveTime xsi:type="IVL_TS">
+                <low nullFlavor="NI"/>
+                <high nullFlavor="NI"/>
+              </effectiveTime>
+              <consumable>
+                <manufacturedProduct classCode="MANU">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.23"/>
+                  <manufacturedMaterial>
+                    <code nullFlavor="NI">
+                      <originalText>
+                        <reference value="#Med35"/>
+                      </originalText>
+                      <translation code="582320" codeSystemName="FDB MEDID"/>
+                    </code>
+                    <name>True Metrix Glucose Test Strip</name>
+                  </manufacturedMaterial>
+                </manufacturedProduct>
+              </consumable>
+              <entryRelationship typeCode="SUBJ" inversionInd="true">
+                <act moodCode="INT" classCode="ACT">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.20"/>
+                  <code code="311401005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Patient Education"/>
+                  <text/>
+                  <statusCode code="completed"/>
+                </act>
+              </entryRelationship>
+            </substanceAdministration>
+          </entry>
+          <entry>
+            <substanceAdministration moodCode="INT" classCode="SBADM">
+              <templateId root="2.16.840.1.113883.10.20.22.4.16"/>
+              <id root="1e4928af-2020-90e2-2b78-001A64958C30"/>
+              <text>
+                <reference value="#Med36"/>
+              </text>
+              <statusCode code="completed"/>
+              <effectiveTime xsi:type="IVL_TS">
+                <low nullFlavor="NI"/>
+                <high nullFlavor="NI"/>
+              </effectiveTime>
+              <consumable>
+                <manufacturedProduct classCode="MANU">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.23"/>
+                  <manufacturedMaterial>
+                    <code nullFlavor="NI">
+                      <originalText>
+                        <reference value="#Med36"/>
+                      </originalText>
+                      <translation code="576575" codeSystemName="FDB MEDID"/>
+                    </code>
+                    <name>TRUEplus Lancets 28 gauge</name>
+                  </manufacturedMaterial>
+                </manufacturedProduct>
+              </consumable>
+              <entryRelationship typeCode="SUBJ" inversionInd="true">
+                <act moodCode="INT" classCode="ACT">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.20"/>
+                  <code code="311401005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Patient Education"/>
+                  <text/>
+                  <statusCode code="completed"/>
+                </act>
+              </entryRelationship>
+            </substanceAdministration>
+          </entry>
+          <entry>
+            <substanceAdministration moodCode="INT" classCode="SBADM">
+              <templateId root="2.16.840.1.113883.10.20.22.4.16"/>
+              <id root="1e4928af-2020-f81a-2b78-001A64958C30"/>
+              <text><reference value="#Med37"/>Take by oral route.</text>
+              <statusCode code="completed"/>
+              <effectiveTime xsi:type="IVL_TS">
+                <low nullFlavor="NI"/>
+                <high nullFlavor="NI"/>
+              </effectiveTime>
+              <consumable>
+                <manufacturedProduct classCode="MANU">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.23"/>
+                  <manufacturedMaterial>
+                    <code nullFlavor="NI">
+                      <originalText>
+                        <reference value="#Med37"/>
+                      </originalText>
+                      <translation code="592782" codeSystemName="FDB MEDID"/>
+                    </code>
+                    <name>turmeric 500 mg-black pepper extract 3 mg capsule</name>
+                  </manufacturedMaterial>
+                </manufacturedProduct>
+              </consumable>
+              <entryRelationship typeCode="SUBJ" inversionInd="true">
+                <act moodCode="INT" classCode="ACT">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.20"/>
+                  <code code="311401005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Patient Education"/>
+                  <text/>
+                  <statusCode code="completed"/>
+                </act>
+              </entryRelationship>
+            </substanceAdministration>
+          </entry>
+          <entry>
+            <substanceAdministration moodCode="INT" classCode="SBADM">
+              <templateId root="2.16.840.1.113883.10.20.22.4.16"/>
+              <id root="1e4928af-2020-b1b1-2b78-001A64958C30"/>
+              <text>
+                <reference value="#Med38"/>
+              </text>
+              <statusCode code="completed"/>
+              <effectiveTime xsi:type="IVL_TS">
+                <low nullFlavor="NI"/>
+                <high nullFlavor="NI"/>
+              </effectiveTime>
+              <consumable>
+                <manufacturedProduct classCode="MANU">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.23"/>
+                  <manufacturedMaterial>
+                    <code nullFlavor="NI">
+                      <originalText>
+                        <reference value="#Med38"/>
+                      </originalText>
+                    </code>
+                    <name>vitamin c 500mg</name>
+                  </manufacturedMaterial>
+                </manufacturedProduct>
+              </consumable>
+              <entryRelationship typeCode="SUBJ" inversionInd="true">
+                <act moodCode="INT" classCode="ACT">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.20"/>
+                  <code code="311401005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Patient Education"/>
+                  <text/>
+                  <statusCode code="completed"/>
+                </act>
+              </entryRelationship>
+            </substanceAdministration>
+          </entry>
+          <entry>
+            <substanceAdministration moodCode="INT" classCode="SBADM">
+              <templateId root="2.16.840.1.113883.10.20.22.4.16"/>
+              <id root="1e4928af-2020-6353-2b78-001A64958C30"/>
+              <text>
+                <reference value="#Med39"/>
+              </text>
+              <statusCode code="completed"/>
+              <effectiveTime xsi:type="IVL_TS">
+                <low nullFlavor="NI"/>
+                <high nullFlavor="NI"/>
+              </effectiveTime>
+              <consumable>
+                <manufacturedProduct classCode="MANU">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.23"/>
+                  <manufacturedMaterial>
+                    <code nullFlavor="NI">
+                      <originalText>
+                        <reference value="#Med39"/>
+                      </originalText>
+                    </code>
+                    <name>vitamin d 1000 iu</name>
+                  </manufacturedMaterial>
+                </manufacturedProduct>
+              </consumable>
+              <entryRelationship typeCode="SUBJ" inversionInd="true">
+                <act moodCode="INT" classCode="ACT">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.20"/>
+                  <code code="311401005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Patient Education"/>
+                  <text/>
+                  <statusCode code="completed"/>
+                </act>
+              </entryRelationship>
+            </substanceAdministration>
+          </entry>
+          <entry>
+            <substanceAdministration moodCode="INT" classCode="SBADM">
+              <templateId root="2.16.840.1.113883.10.20.22.4.16"/>
+              <id root="1e4928af-2020-2640-2b78-001A64958C30"/>
+              <text>
+                <reference value="#Med40"/>
+              </text>
+              <statusCode code="completed"/>
+              <effectiveTime xsi:type="IVL_TS">
+                <low nullFlavor="NI"/>
+                <high nullFlavor="NI"/>
+              </effectiveTime>
+              <consumable>
+                <manufacturedProduct classCode="MANU">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.23"/>
+                  <manufacturedMaterial>
+                    <code code="1292435" displayName="0.65 ML Varicella-Zoster Virus Vaccine Live (Oka-Merck) strain 29800 UNT/ML Injection [Zostavax]" codeSystem="2.16.840.1.113883.6.88" codeSystemName="RxNorm">
+                      <originalText>
+                        <reference value="#Med40"/>
+                      </originalText>
+                      <translation code="545383" codeSystemName="FDB MEDID"/>
+                    </code>
+                    <name>0.65 ML Varicella-Zoster Virus Vaccine Live (Oka-Merck) strain 29800 UNT/ML Injection [Zostavax]</name>
+                  </manufacturedMaterial>
+                </manufacturedProduct>
+              </consumable>
+              <entryRelationship typeCode="SUBJ" inversionInd="true">
+                <act moodCode="INT" classCode="ACT">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.20"/>
+                  <code code="311401005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Patient Education"/>
+                  <text/>
+                  <statusCode code="completed"/>
+                </act>
+              </entryRelationship>
+            </substanceAdministration>
+          </entry>
+        </section>
+      </component>
+      <component>
+        <section>
+          <templateId root="2.16.840.1.113883.10.20.22.2.5.1"/>
+          <id root="1e4928b0-2020-12c4-2b78-001A64958C30"/>
+          <code code="11450-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+          <title>Problems</title>
+          <text>
+			<paragraph>None recorded.</paragraph>
+		</text>
+          <entry>
+            <act moodCode="EVN" classCode="ACT">
+              <templateId root="2.16.840.1.113883.10.20.22.4.3"/>
+              <id root="1e4928b0-2020-4556-2b78-001A64958C30"/>
+              <code code="CONC" codeSystem="2.16.840.1.113883.5.6"/>
+              <statusCode code="active"/>
+              <effectiveTime>
+                <low nullFlavor="NI"/>
+              </effectiveTime>
+              <entryRelationship typeCode="SUBJ" inversionInd="false">
+                <observation moodCode="EVN" classCode="OBS">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.4"/>
+                  <id root="1e4928b0-2020-d131-2b78-001A64958C30"/>
+                  <code code="55607006" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Problem"/>
+                  <statusCode code="completed"/>
+                  <effectiveTime>
+                    <low nullFlavor="NI"/>
+                  </effectiveTime>
+                  <value xsi:type="CD" nullFlavor="NI"/>
+                </observation>
+              </entryRelationship>
+            </act>
+          </entry>
+        </section>
+      </component>
+      <component>
+        <section>
+          <templateId root="2.16.840.1.113883.10.20.22.2.7.1"/>
+          <id root="1e4928b0-2020-00fe-2b78-001A64958C30"/>
+          <code code="47519-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+          <title>Procedures</title>
+          <text>
+            <table>
+              <thead>
+                <tr>
+                  <th>Date</th>
+                  <th>Name</th>
+                  <th>Performed by</th>
+                  <th>&#xA0;</th>
+                </tr>
+              </thead>
+              <tbody>
+		<tr>
+			
+			<td styleCode="Botrule">&#xA0;</td>
+			<td styleCode="Botrule"><content ID="Proc1">Pacemaker</content></td>
+			<td styleCode="Botrule">Information not available</td>
+			
+			
+		</tr>
+	
+		<tr>
+			
+			<td styleCode="Botrule">&#xA0;</td>
+			<td styleCode="Botrule"><content ID="Proc2">Cholecystectomy</content></td>
+			<td styleCode="Botrule">Information not available</td>
+			
+			
+		</tr>
+	
+		<tr>
+			
+			<td>03/21/2019</td>
+			<td><content ID="Proc3">Arterial Study, Lower Extremity, Multiple Level</content></td>
+			<td>Mount Carmel Radiology (Concierge-Non Testing Location)<br/>6150 E Broad St Not A Testing Center<br/>Columbus, OH 43213<br/>(614) 234-7400 (Work Place)</td>
+			
+			
+		</tr>
+	</tbody>
+            </table>
+          </text>
+          <entry>
+            <procedure moodCode="INT" classCode="PROC">
+              <templateId root="2.16.840.1.113883.10.20.22.4.14"/>
+              <id root="1e4928b0-2020-d077-2b78-001A64958C30"/>
+              <code nullFlavor="NI"/>
+              <text>
+                <reference value="#Proc1"/>
+              </text>
+              <statusCode code="active"/>
+              <effectiveTime nullFlavor="NI"/>
+            </procedure>
+          </entry>
+          <entry>
+            <procedure moodCode="INT" classCode="PROC">
+              <templateId root="2.16.840.1.113883.10.20.22.4.14"/>
+              <id root="1e4928b0-2020-4979-2b78-001A64958C30"/>
+              <code nullFlavor="NI"/>
+              <text>
+                <reference value="#Proc2"/>
+              </text>
+              <statusCode code="active"/>
+              <effectiveTime nullFlavor="NI"/>
+            </procedure>
+          </entry>
+          <entry>
+            <observation classCode="OBS" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.10.20.22.4.13"/>
+              <id root="1e4928b0-2020-3d43-2b78-001A64958C30"/>
+              <code nullFlavor="NI" displayName="arterial study, lower extremity, multiple level" xsi:type="CE"/>
+              <statusCode code="completed"/>
+              <effectiveTime value="20190321"/>
+              <value nullFlavor="NA" xsi:type="CE"/>
+              <performer>
+                <assignedEntity>
+                  <id root="1e4928b0-2020-0398-2b78-001A64958C30"/>
+                  <addr use="WP">
+                    <streetAddressLine>6150 E Broad St</streetAddressLine>
+                    <streetAddressLine>Not A Testing Center</streetAddressLine>
+                    <city>Columbus</city>
+                    <state>OH</state>
+                    <postalCode>43213</postalCode>
+                    <country>US</country>
+                  </addr>
+                  <telecom use="WP" value="tel:+1-614-2347400"/>
+                  <representedOrganization>
+                    <name>Mount Carmel Radiology (Concierge-Non Testing Location)</name>
+                    <telecom use="WP" value="tel:+1-614-2347400"/>
+                    <addr use="WP">
+                      <streetAddressLine>6150 E Broad St</streetAddressLine>
+                      <streetAddressLine>Not A Testing Center</streetAddressLine>
+                      <city>Columbus</city>
+                      <state>OH</state>
+                      <postalCode>43213</postalCode>
+                      <country>US</country>
+                    </addr>
+                  </representedOrganization>
+                </assignedEntity>
+              </performer>
+            </observation>
+          </entry>
+        </section>
+      </component>
+      <component>
+        <section>
+          <templateId root="2.16.840.1.113883.10.20.22.2.3.1"/>
+          <id root="1e4928b0-2020-0433-2b78-001A64958C30"/>
+          <code code="30954-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+          <title>Results</title>
+          <text>
+                	<table><thead><tr><th>Lab Results</th></tr></thead><tbody><tr><td/></tr></tbody></table>
+                <paragraph><content ID="result1">None recorded.</content></paragraph></text>
+          <entry>
+            <organizer moodCode="EVN" classCode="BATTERY">
+              <templateId root="2.16.840.1.113883.10.20.22.4.1"/>
+              <id root="1e4928b0-2020-1b8a-2b78-001A64958C30"/>
+              <code xsi:type="CE" nullFlavor="NI">
+                <translation displayName="None recorded." codeSystemName="Lab Result Description"/>
+              </code>
+              <statusCode code="completed"/>
+              <effectiveTime nullFlavor="NI"/>
+              <component>
+                <observation moodCode="EVN" classCode="OBS">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.2"/>
+                  <id root="1e4928b0-2020-24d1-2b78-001A64958C30"/>
+                  <code nullFlavor="NI"/>
+                  <text>
+                    <reference value="#result1"/>
+                  </text>
+                  <statusCode code="completed"/>
+                  <effectiveTime nullFlavor="NI"/>
+                  <value nullFlavor="NI" xsi:type="CD"/>
+                  <interpretationCode nullFlavor="NI"/>
+                  <referenceRange>
+                    <observationRange>
+                      <text nullFlavor="NI"/>
+                      <value xsi:type="ST" nullFlavor="NI"/>
+                    </observationRange>
+                  </referenceRange>
+                </observation>
+              </component>
+            </organizer>
+          </entry>
+        </section>
+      </component>
+      <component>
+        <section>
+          <templateId root="2.16.840.1.113883.10.20.22.2.22"/>
+          <id root="1e4928b0-2020-a0f1-2b78-001A64958C30"/>
+          <code code="46240-8" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="History of hospitalizations+History of outpatient visits"/>
+          <title>Past Encounters</title>
+          <text>
+            <table>
+              <tbody>
+		<tr>
+			<td>03/21/2019<br/>Peripheral Vascular Disease<br/><content ID="Encounter1">Matthew R Paulus, APRN: 477 Cooper Road, Suite 200, Westerville, OH 43081-6045, Ph. (614) 627-2000</content></td>
+			
+		</tr>
+	</tbody>
+            </table>
+          </text>
+          <entry>
+            <encounter moodCode="EVN" classCode="ENC">
+              <templateId root="2.16.840.1.113883.10.20.22.4.49"/>
+              <id root="1e4928b0-2020-5ffb-2b78-001A64958C30"/>
+              <code nullFlavor="NI">
+                <originalText>
+                  <reference value="#Encounter1"/>
+                </originalText>
+              </code>
+              <effectiveTime value="20190321"/>
+              <performer>
+                <assignedEntity>
+                  <id root="2.16.840.1.113883.4.6" extension="1407131022"/>
+                  <code code="363L00000X" codeSystem="2.16.840.1.113883.6.101" codeSystemName="NUCC" displayName="Nurse Practitioner"/>
+                  <addr use="WP">
+                    <streetAddressLine>477 Cooper Road, Suite 200</streetAddressLine>
+                    <streetAddressLine nullFlavor="NI"/>
+                    <city>Westerville</city>
+                    <state>OH</state>
+                    <postalCode>43081-6045</postalCode>
+                    <country>US</country>
+                  </addr>
+                  <telecom use="WP" value="tel:+1-614-6272000"/>
+                  <assignedPerson>
+                    <name>
+                      <given>Matthew</given>
+                      <given>R</given>
+                      <family>Paulus</family>
+                    </name>
+                  </assignedPerson>
+                </assignedEntity>
+              </performer>
+              <participant typeCode="LOC">
+                <participantRole classCode="SDLOC">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.32"/>
+                  <code nullFlavor="NI"/>
+                  <addr>
+                    <streetAddressLine>477 Cooper Road, Suite 200</streetAddressLine>
+                    <streetAddressLine nullFlavor="NI"/>
+                    <city>Westerville</city>
+                    <state>OH</state>
+                    <postalCode>43081-6045</postalCode>
+                    <country>US</country>
+                  </addr>
+                  <telecom use="WP" value="tel:+1-614-6272000"/>
+                  <playingEntity classCode="PLC">
+                    <name>OH - Trinity - Columbus - MGSC_Vascular Surgery SA</name>
+                  </playingEntity>
+                </participantRole>
+              </participant>
+              <entryRelationship typeCode="SUBJ">
+                <act moodCode="EVN" classCode="ACT">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.80"/>
+                  <code code="29308-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="ENCOUNTER DIAGNOSIS" xsi:type="CE"/>
+                  <entryRelationship typeCode="SUBJ">
+                    <observation moodCode="EVN" classCode="OBS">
+                      <templateId root="2.16.840.1.113883.10.20.22.4.4"/>
+                      <id root="1e4928b0-2020-317c-2b78-001A64958C30"/>
+                      <code code="282291009" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Diagnosis"/>
+                      <statusCode code="completed"/>
+                      <effectiveTime>
+                        <low value="20190321150424-0400"/>
+                      </effectiveTime>
+                      <value xsi:type="CD" code="400047006" displayName="Peripheral vascular disease" codeSystem="2.16.840.1.113883.6.96"/>
+                    </observation>
+                  </entryRelationship>
+                </act>
+              </entryRelationship>
+            </encounter>
+          </entry>
+        </section>
+      </component>
+      <component>
+        <section>
+          <templateId root="2.16.840.1.113883.10.20.22.2.17"/>
+          <id root="1e4928b0-2020-2fb3-2b78-001A64958C30"/>
+          <code code="29762-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+          <title>Social History</title>
+          <text>
+				<table><tbody>
+			
+		<tr>
+			
+			<td><content styleCode="Bold">Tobacco Smoking Status</content></td>
+			<td>Former Smoker</td>
+			<td>
+		<content styleCode="Bold">Notes: </content>
+	Quit 1961 </td>
+			
+		</tr>
+	</tbody></table></text>
+          <entry>
+            <observation moodCode="EVN" classCode="OBS">
+              <templateId root="2.16.840.1.113883.10.20.22.4.78"/>
+              <id root="1e4928b0-2020-7b12-2b78-001A64958C30"/>
+              <code code="ASSERTION" codeSystem="2.16.840.1.113883.5.4"/>
+              <statusCode code="completed"/>
+              <effectiveTime>
+                <low nullFlavor="NI"/>
+                <high nullFlavor="NI"/>
+              </effectiveTime>
+              <value code="8517006" codeSystem="2.16.840.1.113883.6.96" displayName="Former Smoker" xsi:type="CD"/>
+              <author>
+                <time value="20190319163515-0400"/>
+                <assignedAuthor classCode="ASSIGNED">
+                  <id nullFlavor="NI"/>
+                  <addr nullFlavor="UNK"/>
+                  <assignedPerson>
+                    <name>
+                      <given nullFlavor="NA"/>
+                      <family nullFlavor="NA"/>
+                    </name>
+                  </assignedPerson>
+                </assignedAuthor>
+              </author>
+            </observation>
+          </entry>
+        </section>
+      </component>
+      <component>
+        <section>
+          <templateId root="2.16.840.1.113883.10.20.22.2.2.1"/>
+          <id root="1e4928b0-2020-b509-2b78-001A64958C30"/>
+          <code code="11369-6" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+          <title>Vaccine List</title>
+          <text>
+			<paragraph>
+				<content ID="immun1">None recorded.</content>
+			</paragraph>
+		</text>
+          <entry>
+            <substanceAdministration moodCode="INT" classCode="SBADM" negationInd="false">
+              <templateId root="2.16.840.1.113883.10.20.22.4.52"/>
+              <id root="1e4928b0-2020-24b5-2b78-001A64958C30"/>
+              <text>
+                <reference value="#immun1"/>
+              </text>
+              <statusCode code="active"/>
+              <effectiveTime nullFlavor="NI"/>
+              <doseQuantity nullFlavor="NI"/>
+              <consumable>
+                <manufacturedProduct classCode="MANU">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.54"/>
+                  <manufacturedMaterial>
+                    <code codeSystem="2.16.840.1.113883.12.292" codeSystemName="CVX" nullFlavor="NI"/>
+                  </manufacturedMaterial>
+                </manufacturedProduct>
+              </consumable>
+            </substanceAdministration>
+          </entry>
+        </section>
+      </component>
+      <component>
+        <section>
+          <templateId root="2.16.840.1.113883.10.20.22.2.10"/>
+          <id root="1e4928b0-2020-d849-2b78-001A64958C30"/>
+          <code code="18776-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC"/>
+          <title>Plan of Care</title>
+          <text>
+            <table>
+              <thead>
+                <tr>
+                  <th>Reminders</th>
+                  <th/>
+                  <th/>
+                  <th>Provider</th>
+                </tr>
+              </thead>
+              <tbody>
+			<tr>
+				<td styleCode="Botrule">
+					<content styleCode="Bold">Appointments</content>
+				</td>
+				<td styleCode="Botrule">
+					
+					None recorded.
+				</td>
+				<td styleCode="Botrule">
+					&#xA0;
+				</td>
+				<td styleCode="Botrule">
+					&#xA0;
+				</td>
+				
+			</tr>
+		
+			<tr>
+				<td styleCode="Botrule">
+					<content styleCode="Bold">Lab</content>
+				</td>
+				<td styleCode="Botrule">
+					
+					None recorded.
+				</td>
+				<td styleCode="Botrule">
+					&#xA0;
+				</td>
+				<td styleCode="Botrule">
+					&#xA0;
+				</td>
+				
+			</tr>
+		
+			<tr>
+				<td styleCode="Botrule">
+					<content styleCode="Bold">Referral</content>
+				</td>
+				<td styleCode="Botrule">
+					
+					None recorded.
+				</td>
+				<td styleCode="Botrule">
+					&#xA0;
+				</td>
+				<td styleCode="Botrule">
+					&#xA0;
+				</td>
+				
+			</tr>
+		
+			<tr>
+				<td styleCode="Botrule">
+					<content styleCode="Bold">Procedures</content>
+				</td>
+				<td styleCode="Botrule">
+					
+					None recorded.
+				</td>
+				<td styleCode="Botrule">
+					&#xA0;
+				</td>
+				<td styleCode="Botrule">
+					&#xA0;
+				</td>
+				
+			</tr>
+		
+			<tr>
+				<td styleCode="Botrule">
+					<content styleCode="Bold">Surgeries</content>
+				</td>
+				<td styleCode="Botrule">
+					
+					None recorded.
+				</td>
+				<td styleCode="Botrule">
+					&#xA0;
+				</td>
+				<td styleCode="Botrule">
+					&#xA0;
+				</td>
+				
+			</tr>
+		
+			<tr>
+				<td>
+					<content styleCode="Bold">Imaging</content>
+				</td>
+				<td>
+					
+					None recorded.
+				</td>
+				<td>
+					&#xA0;
+				</td>
+				<td>
+					&#xA0;
+				</td>
+				
+			</tr>
+		</tbody>
+            </table>
+          </text>
+        </section>
+      </component>
+      <component>
+        <section>
+          <templateId root="2.16.840.1.113883.10.20.22.2.4.1"/>
+          <id root="1e4928b0-2020-eafc-2b78-001A64958C30"/>
+          <code code="8716-3" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="VITAL SIGNS"/>
+          <title>Vitals</title>
+          <text>
+				<table>
+					<thead>
+						<tr>
+							 <th>Height</th>  <th>Weight</th>  <th>BMI</th>  <th>Blood Pressure</th> 
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+			 <td> <content ID="vit2">6 ft</content> </td>  <td> <content ID="vit5">177 lbs</content> </td>  <td> <content ID="vit3">24</content> kg/m2 </td>  <td> <content ID="vit4">122</content>/<content ID="vit1">80 mm[Hg]</content> </td> 
+						</tr>
+					</tbody>
+				</table>
+			</text>
+          <entry typeCode="DRIV">
+            <organizer moodCode="EVN" classCode="CLUSTER">
+              <templateId root="2.16.840.1.113883.10.20.22.4.26"/>
+              <id root="1e4928b0-2020-a8ed-2b78-001A64958C30"/>
+              <code code="46680005" codeSystem="2.16.840.1.113883.6.96" codeSystemName="SNOMED CT" displayName="Vital signs"/>
+              <statusCode code="completed"/>
+              <effectiveTime value="20190321"/>
+              <component>
+                <observation moodCode="EVN" classCode="OBS">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+                  <id root="1e4928b0-2020-9efe-2b78-001A64958C30"/>
+                  <code code="8462-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="BP Diastolic"/>
+                  <text>
+                    <reference value="#vit1"/>
+                  </text>
+                  <statusCode code="completed"/>
+                  <effectiveTime value="20190321"/>
+                  <value value="80" xsi:type="PQ" unit="mm[Hg]"/>
+                </observation>
+              </component>
+              <component>
+                <observation moodCode="EVN" classCode="OBS">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+                  <id root="1e4928b0-2020-a509-2b78-001A64958C30"/>
+                  <code code="8302-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Height"/>
+                  <text>
+                    <reference value="#vit2"/>
+                  </text>
+                  <statusCode code="completed"/>
+                  <effectiveTime value="20190321"/>
+                  <value value="72" xsi:type="PQ" unit="[in_i]"/>
+                </observation>
+              </component>
+              <component>
+                <observation moodCode="EVN" classCode="OBS">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+                  <id root="1e4928b0-2020-73e2-2b78-001A64958C30"/>
+                  <code code="39156-5" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="BMI (Body Mass Index)"/>
+                  <text>
+                    <reference value="#vit3"/>
+                  </text>
+                  <statusCode code="completed"/>
+                  <effectiveTime value="20190321"/>
+                  <value value="24" xsi:type="PQ" unit="kg/m2"/>
+                </observation>
+              </component>
+              <component>
+                <observation moodCode="EVN" classCode="OBS">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+                  <id root="1e4928b0-2020-734b-2b78-001A64958C30"/>
+                  <code code="8480-6" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="BP Systolic"/>
+                  <text>
+                    <reference value="#vit4"/>
+                  </text>
+                  <statusCode code="completed"/>
+                  <effectiveTime value="20190321"/>
+                  <value value="122" xsi:type="PQ" unit="mm[Hg]"/>
+                </observation>
+              </component>
+              <component>
+                <observation moodCode="EVN" classCode="OBS">
+                  <templateId root="2.16.840.1.113883.10.20.22.4.27"/>
+                  <id root="1e4928b0-2020-418e-2b78-001A64958C30"/>
+                  <code code="29463-7" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Body Weight"/>
+                  <text>
+                    <reference value="#vit5"/>
+                  </text>
+                  <statusCode code="completed"/>
+                  <effectiveTime value="20190321"/>
+                  <value value="2832" xsi:type="PQ" unit="[oz_av]"/>
+                </observation>
+              </component>
+            </organizer>
+          </entry>
+        </section>
+      </component>
+    </structuredBody>
+  </component>
+</ClinicalDocument>

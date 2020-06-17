@@ -42,6 +42,75 @@ public class CCDTransformerTest {
         CDAUtil.loadPackages();
     }
     
+    // Ariel Sample r2.1
+    @Test
+    public void testArielSample() throws Exception {
+        FileInputStream fis = new FileInputStream("src/test/resources/ariel.xml");
+
+        ClinicalDocument cda = CDAUtil.load(fis);
+        ICDATransformer ccdTransformer = new CCDTransformerImpl(IdGeneratorEnum.COUNTER);
+        Config.setGenerateDafProfileMetadata(true);
+        Config.setGenerateNarrative(true);
+        Bundle bundle = ccdTransformer.transformDocument(cda);
+        if(bundle != null)
+            FHIRUtil.printJSON(bundle, "src/test/resources/output/ariel.json");
+    }
+
+    // epic CCD Sample r2.1
+    @Test
+    public void testEpicCCDSample() throws Exception {
+        FileInputStream fis = new FileInputStream("src/test/resources/epicCCD.xml");
+
+        ClinicalDocument cda = CDAUtil.load(fis);
+        ICDATransformer ccdTransformer = new CCDTransformerImpl(IdGeneratorEnum.COUNTER);
+        Config.setGenerateDafProfileMetadata(true);
+        Config.setGenerateNarrative(true);
+        Bundle bundle = ccdTransformer.transformDocument(cda);
+        if(bundle != null)
+            FHIRUtil.printJSON(bundle, "src/test/resources/output/epicCCD.json");
+    }
+
+    // cerner CCD Sample r2.1
+    @Test
+    public void testCernerCCDSample() throws Exception {
+        FileInputStream fis = new FileInputStream("src/test/resources/cernerReferral.xml");
+
+        ClinicalDocument cda = CDAUtil.load(fis);
+        ICDATransformer ccdTransformer = new CCDTransformerImpl(IdGeneratorEnum.COUNTER);
+        Config.setGenerateDafProfileMetadata(true);
+        Config.setGenerateNarrative(true);
+        Bundle bundle = ccdTransformer.transformDocument(cda);
+        if(bundle != null)
+            FHIRUtil.printJSON(bundle, "src/test/resources/output/cernerReferral.json");
+    }
+    // dignity CCD Sample r2.1
+    @Test
+    public void testDignityCCDSample() throws Exception {
+        FileInputStream fis = new FileInputStream("src/test/resources/dignityCCD.xml");
+
+        ClinicalDocument cda = CDAUtil.load(fis);
+        ICDATransformer ccdTransformer = new CCDTransformerImpl(IdGeneratorEnum.COUNTER);
+        Config.setGenerateDafProfileMetadata(true);
+        Config.setGenerateNarrative(true);
+        Bundle bundle = ccdTransformer.transformDocument(cda);
+        if(bundle != null)
+            FHIRUtil.printJSON(bundle, "src/test/resources/output/dignityCCD.json");
+    }
+    // athena CCDA Sample r2.1
+    @Test
+    public void testAthenaCCDASample() throws Exception {
+        FileInputStream fis = new FileInputStream("src/test/resources/athenaCCDA.xml");
+
+        ClinicalDocument cda = CDAUtil.load(fis);
+        ICDATransformer ccdTransformer = new CCDTransformerImpl(IdGeneratorEnum.COUNTER);
+        Config.setGenerateDafProfileMetadata(true);
+        Config.setGenerateNarrative(true);
+        Bundle bundle = ccdTransformer.transformDocument(cda);
+        if(bundle != null)
+            FHIRUtil.printJSON(bundle, "src/test/resources/output/athenaCCD.json");
+    }
+/*
+
     // Gold Sample r2.1
     @Test
     public void testGoldSample() throws Exception {
@@ -125,5 +194,5 @@ public class CCDTransformerTest {
         if(bundle != null)
             FHIRUtil.printJSON(bundle, "src/test/resources/output/Vitera_CCDA_SMART_Sample.json");
     }
-
+*/
 }
